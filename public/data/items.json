@@ -1,0 +1,252 @@
+[
+  {
+    "id": "pokemon-tcg-jp-box",
+    "name": "포켓몬 카드 일본판 부스터 박스",
+    "nameJp": "ポケモンカード ブースターボックス",
+    "category": "collectibles",
+    "priceJpy": 5500,
+    "estimatedPriceUsd": 80,
+    "whereToBuy": "포켓몬 센터, 빅카메라, 요도바시",
+    "notes": "최신 확장팩일수록 마진 높음. 미국에서 영문판보다 일본판 컬렉터 수요가 큼."
+  },
+  {
+    "id": "nintendo-jp-limited",
+    "name": "닌텐도 스위치 일본 한정판 게임",
+    "nameJp": "Nintendo Switch 限定版ソフト",
+    "category": "gaming",
+    "priceJpy": 9800,
+    "estimatedPriceUsd": 120,
+    "whereToBuy": "닌텐도 도쿄 스토어, 빅카메라",
+    "notes": "일본 한정판 패키지/특전이 있는 타이틀이 미국 컬렉터에게 인기."
+  },
+  {
+    "id": "sailor-pen",
+    "name": "Sailor 프로기어 만년필",
+    "nameJp": "セーラー プロフェッショナルギア",
+    "category": "stationery",
+    "priceJpy": 22000,
+    "estimatedPriceUsd": 220,
+    "whereToBuy": "이토야, 마루젠, 세카이도",
+    "notes": "일본 내수가가 미국 소매가보다 30% 이상 저렴. 한정 색상 인기."
+  },
+  {
+    "id": "fuji-instax-jp",
+    "name": "후지 인스탁스 미니 일본 한정 컬러",
+    "nameJp": "富士フイルム instax mini",
+    "category": "electronics",
+    "priceJpy": 12000,
+    "estimatedPriceUsd": 150,
+    "whereToBuy": "빅카메라, 요도바시 카메라",
+    "notes": "일본 한정 컬러/콜라보 모델 인기."
+  },
+  {
+    "id": "skii-jp-set",
+    "name": "SK-II 일본 한정 사이즈 / 세트",
+    "nameJp": "SK-II 限定セット",
+    "category": "beauty",
+    "priceJpy": 18000,
+    "estimatedPriceUsd": 200,
+    "whereToBuy": "이세탄, 한큐, 면세점",
+    "notes": "일본 면세 + 환율 차이로 25-40% 마진 가능. 진품 보증 영수증 필수."
+  },
+  {
+    "id": "kitkat-japan",
+    "name": "킷캣 일본 한정 맛 박스 세트",
+    "nameJp": "キットカット 限定フレーバー",
+    "category": "food",
+    "priceJpy": 3000,
+    "estimatedPriceUsd": 40,
+    "whereToBuy": "돈키호테, 공항 면세점",
+    "notes": "마차, 사케, 와사비 등 지역 한정 맛이 인기. 유통기한 주의."
+  },
+  {
+    "id": "casio-gshock-jp",
+    "name": "G-Shock 일본 한정 모델",
+    "nameJp": "G-SHOCK 日本限定モデル",
+    "category": "watches",
+    "priceJpy": 28000,
+    "estimatedPriceUsd": 350,
+    "whereToBuy": "카시오 공식 스토어, 빅카메라",
+    "notes": "일본 내수 전용 모델은 미국에서 프리미엄가에 거래됨."
+  },
+  {
+    "id": "bandai-figure",
+    "name": "반다이 한정 피규어 (Tamashii Nations)",
+    "nameJp": "バンダイ 魂ネイション 限定",
+    "category": "collectibles",
+    "priceJpy": 15000,
+    "estimatedPriceUsd": 180,
+    "whereToBuy": "Tamashii Nations Store, 아키하바라",
+    "notes": "이벤트 한정 / 웹 한정 모델은 발매 직후 가치 상승."
+  },
+  {
+    "id": "muji-jp-only",
+    "name": "무인양품 일본 한정 제품",
+    "nameJp": "無印良品 日本限定",
+    "category": "fashion",
+    "priceJpy": 4500,
+    "estimatedPriceUsd": 55,
+    "whereToBuy": "무지 후랏그십 스토어 (긴자 등)",
+    "notes": "미국 매장에 들어오지 않는 SKU 위주."
+  },
+  {
+    "id": "uniqlo-collab",
+    "name": "유니클로 UT 일본 선행 콜라보",
+    "nameJp": "UNIQLO UT 日本先行",
+    "category": "fashion",
+    "priceJpy": 1990,
+    "estimatedPriceUsd": 35,
+    "whereToBuy": "유니클로 긴자 글로벌 플래그십",
+    "notes": "일본 먼저 발매되는 콜라보 라인은 사이즈 품절 빠름."
+  },
+  {
+    "id": "hobonichi-techo",
+    "name": "Hobonichi Techo 다이어리 (한정 커버)",
+    "nameJp": "ほぼ日手帳",
+    "category": "stationery",
+    "priceJpy": 3500,
+    "estimatedPriceUsd": 55,
+    "whereToBuy": "TOBICHI, 로프트, 공식 온라인",
+    "notes": "매년 가을 발매. 매장 한정 / 콜라보 커버는 즉시 품절."
+  },
+  {
+    "id": "pilot-custom-fp",
+    "name": "Pilot Custom 74 / 823 만년필",
+    "nameJp": "パイロット カスタム74 / 823",
+    "category": "stationery",
+    "priceJpy": 12000,
+    "estimatedPriceUsd": 200,
+    "whereToBuy": "이토야, 마루젠, 빅카메라",
+    "notes": "미국 정가 대비 일본 내수가가 거의 절반. FA(촉) 같은 특수 닙은 일본 단독."
+  },
+  {
+    "id": "tombow-mono-set",
+    "name": "Tombow Mono 한정 세트",
+    "nameJp": "トンボ MONO 限定セット",
+    "category": "stationery",
+    "priceJpy": 2000,
+    "estimatedPriceUsd": 30,
+    "whereToBuy": "로프트, 토큐핸즈, 세카이도",
+    "notes": "마진은 적지만 가벼워서 같이 묶어 보내기 좋음."
+  },
+  {
+    "id": "ricoh-gr3",
+    "name": "Ricoh GR III / IIIx (중고)",
+    "nameJp": "リコー GR III / IIIx",
+    "category": "electronics",
+    "priceJpy": 105000,
+    "estimatedPriceUsd": 950,
+    "whereToBuy": "맙푸 카메라, 후지야 카메라, 빅카메라 중고",
+    "notes": "미국에선 신품 재고 부족으로 중고가가 일본 시세보다 높음. 상태 등급 확인 필수."
+  },
+  {
+    "id": "sony-headphones-jp",
+    "name": "Sony WF-1000XM5 / WH 시리즈 일본판",
+    "nameJp": "ソニー WF-1000XM5",
+    "category": "electronics",
+    "priceJpy": 39000,
+    "estimatedPriceUsd": 300,
+    "whereToBuy": "요도바시, 빅카메라, 면세점",
+    "notes": "면세 + 환율로 약 15-20% 저렴. 글로벌 모델이라 미국에서 사용 가능."
+  },
+  {
+    "id": "grand-seiko-domestic",
+    "name": "Grand Seiko 일본 내수 모델 (SBGA / SBGM)",
+    "nameJp": "グランドセイコー 国内モデル",
+    "category": "watches",
+    "priceJpy": 320000,
+    "estimatedPriceUsd": 3200,
+    "whereToBuy": "그랜드 세이코 부티크, 와코",
+    "notes": "일본 내수 전용 다이얼/레퍼런스가 미국에서 프리미엄가에 거래. 면세 적용 시 마진 큼."
+  },
+  {
+    "id": "seiko5-jp-limited",
+    "name": "Seiko 5 SKX 일본 한정 시리즈",
+    "nameJp": "セイコー5 日本限定",
+    "category": "watches",
+    "priceJpy": 32000,
+    "estimatedPriceUsd": 380,
+    "whereToBuy": "세이코 부티크, 빅카메라",
+    "notes": "일본 단독 다이얼 컬러 모델은 출고 직후부터 거래가 상승."
+  },
+  {
+    "id": "shiseido-jp-only",
+    "name": "Shiseido 시카기 / Elixir 일본 한정",
+    "nameJp": "資生堂 エリクシール 限定",
+    "category": "beauty",
+    "priceJpy": 6000,
+    "estimatedPriceUsd": 90,
+    "whereToBuy": "이세탄, 도큐핸즈, 마쓰모토 키요시",
+    "notes": "미국 미발매 SKU는 ASIAN 뷰티 커뮤니티 수요 큼."
+  },
+  {
+    "id": "curel-jp-size",
+    "name": "Curel 일본 사이즈 보습 / 자외선 차단",
+    "nameJp": "キュレル 日本サイズ",
+    "category": "beauty",
+    "priceJpy": 2400,
+    "estimatedPriceUsd": 35,
+    "whereToBuy": "마쓰모토 키요시, 웰시아",
+    "notes": "미국 판매분과 처방이 다른 일본 내수판 인기. 무첨가 라인 특히 수요 큼."
+  },
+  {
+    "id": "hadalabo-1l",
+    "name": "Hadalabo 골드 / 프리미엄 1L 사이즈",
+    "nameJp": "肌ラボ プレミアム 1L",
+    "category": "beauty",
+    "priceJpy": 3500,
+    "estimatedPriceUsd": 50,
+    "whereToBuy": "돈키호테, 마쓰모토 키요시",
+    "notes": "1L 대용량은 일본에서만 판매. 무게 때문에 배송비 계산 필수."
+  },
+  {
+    "id": "onitsuka-jp-color",
+    "name": "Onitsuka Tiger 멕시코 66 일본 단독 컬러",
+    "nameJp": "オニツカタイガー メキシコ66 日本限定",
+    "category": "fashion",
+    "priceJpy": 14000,
+    "estimatedPriceUsd": 200,
+    "whereToBuy": "오니츠카 타이거 긴자, 신주쿠 매장",
+    "notes": "일본 단독 발매 컬러는 미국 리세일가가 정가의 1.5-2배."
+  },
+  {
+    "id": "bape-tokyo-only",
+    "name": "BAPE 도쿄 매장 한정 후디",
+    "nameJp": "A BATHING APE 東京限定",
+    "category": "fashion",
+    "priceJpy": 35000,
+    "estimatedPriceUsd": 450,
+    "whereToBuy": "BAPE 하라주쿠, 시부야",
+    "notes": "스토어/시즌 한정 그래픽은 발매 직후 리세일가 급등. 사이즈 표기 차이 주의."
+  },
+  {
+    "id": "ghibli-store",
+    "name": "스튜디오 지브리 매장 한정 굿즈",
+    "nameJp": "ジブリ どんぐり共和国 限定",
+    "category": "collectibles",
+    "priceJpy": 4000,
+    "estimatedPriceUsd": 65,
+    "whereToBuy": "돈구리 공화국, 지브리 미술관, 지브리 파크",
+    "notes": "지브리 파크 한정 굿즈가 가장 마진이 큼."
+  },
+  {
+    "id": "sanrio-collab",
+    "name": "산리오 헬로키티 일본 콜라보",
+    "nameJp": "サンリオ 限定コラボ",
+    "category": "collectibles",
+    "priceJpy": 3500,
+    "estimatedPriceUsd": 55,
+    "whereToBuy": "산리오 퓨로랜드, 산리오 직영점",
+    "notes": "퓨로랜드 한정 / 일본 한정 콜라보 라인 인기."
+  },
+  {
+    "id": "good-smile-nendo",
+    "name": "Good Smile 넨도로이드 한정판",
+    "nameJp": "グッドスマイル ねんどろいど 限定",
+    "category": "collectibles",
+    "priceJpy": 6500,
+    "estimatedPriceUsd": 100,
+    "whereToBuy": "GOODSMILE ONLINE SHOP, 아키하바라",
+    "notes": "이벤트 한정 / 웹샵 한정은 발매 후 단종되면 가격 급등."
+  }
+]
