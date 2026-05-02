@@ -12,6 +12,7 @@ const CATEGORY_LABELS: Record<Category, string> = {
   collectibles: '수집품',
   food: '식품',
   watches: '시계',
+  kitchen: '주방',
 }
 
 type SortMode = 'default' | 'margin'

@@ -7,6 +7,7 @@ export type Category =
   | 'collectibles'
   | 'food'
   | 'watches'
+  | 'kitchen'
 
 export interface Item {
   id: string
