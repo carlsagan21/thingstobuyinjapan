@@ -1,3 +1,11 @@
+export type Language = 'ko' | 'en' | 'ja'
+
+export interface LocalizedString {
+  ko: string
+  en: string
+  ja: string
+}
+
 export type Category =
   | 'electronics'
   | 'gaming'
@@ -11,14 +19,12 @@ export type Category =
 
 export interface Item {
   id: string
-  name: string
-  nameJp?: string
+  name: LocalizedString
   category: Category
   priceJpy: number
   estimatedPriceUsd: number
-  whereToBuy: string
-  notes: string
-  imageUrl?: string
+  whereToBuy: LocalizedString
+  notes: LocalizedString
 }
 
 export interface ExchangeRate {

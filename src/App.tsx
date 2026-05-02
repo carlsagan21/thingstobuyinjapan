@@ -1,27 +1,22 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useExchangeRate, useItems } from './hooks'
-import type { Category, Item } from './types'
+import type { Category, Item, Language } from './types'
+import { useI18n } from './i18n/I18nContext'
+import { LANGUAGES, LANGUAGE_NAMES } from './i18n/messages'
 import './App.css'
-
-const CATEGORY_LABELS: Record<Category, string> = {
-  electronics: '전자제품',
-  gaming: '게임',
-  stationery: '문구',
-  beauty: '뷰티',
-  fashion: '패션',
-  collectibles: '수집품',
-  food: '식품',
-  watches: '시계',
-  kitchen: '주방',
-}
 
 type SortMode = 'default' | 'margin'
 
 function App() {
   const items = useItems()
   const fx = useExchangeRate()
+  const { lang, m } = useI18n()
   const [selectedCategory, setSelectedCategory] = useState<Category | 'all'>('all')
   const [sortMode, setSortMode] = useState<SortMode>('default')
+
+  useEffect(() => {
+    document.title = m.title
+  }, [m.title])
 
   const categories = useMemo(() => {
     if (!items.data) return []
@@ -45,11 +40,13 @@ function App() {
 
   return (
     <div className="page">
+      <div className="topbar">
+        <LanguageSwitcher />
+      </div>
+
       <header className="hero">
-        <h1>일본에서 사서 미국에서 팔기</h1>
-        <p className="subtitle">
-          일본 현지가와 미국 판매 예상가를 비교해 마진이 나오는 아이템 모음
-        </p>
+        <h1>{m.title}</h1>
+        <p className="subtitle">{m.subtitle}</p>
         <FxBanner rate={fx.data?.rate ?? null} loading={fx.loading} error={fx.error} />
       </header>
 
@@ -58,7 +55,7 @@ function App() {
           active={selectedCategory === 'all'}
           onClick={() => setSelectedCategory('all')}
         >
-          전체
+          {m.filterAll}
         </FilterButton>
         {categories.map((c) => (
           <FilterButton
@@ -66,40 +63,44 @@ function App() {
             active={selectedCategory === c}
             onClick={() => setSelectedCategory(c)}
           >
-            {CATEGORY_LABELS[c]}
+            {m.category[c]}
           </FilterButton>
         ))}
       </nav>
 
       <main>
-        {items.loading && <p className="status">아이템 로딩 중...</p>}
-        {items.error && <p className="status error">에러: {items.error}</p>}
+        {items.loading && <p className="status">{m.loading}</p>}
+        {items.error && (
+          <p className="status error">
+            {m.errorPrefix} {items.error}
+          </p>
+        )}
         {items.data && (
           <>
             <div className="toolbar">
-              <span className="count">{sorted.length}개</span>
+              <span className="count">{m.countLabel(sorted.length)}</span>
               <div className="sort">
-                <span className="sort-label">정렬</span>
+                <span className="sort-label">{m.sortLabel}</span>
                 <button
                   type="button"
                   className={sortMode === 'default' ? 'sort-btn active' : 'sort-btn'}
                   onClick={() => setSortMode('default')}
                 >
-                  기본순
+                  {m.sortDefault}
                 </button>
                 <button
                   type="button"
                   className={sortMode === 'margin' ? 'sort-btn active' : 'sort-btn'}
                   onClick={() => setSortMode('margin')}
                 >
-                  마진순
+                  {m.sortMargin}
                 </button>
               </div>
             </div>
             <ul className="items">
               {sorted.map((item) => (
                 <li key={item.id}>
-                  <ItemCard item={item} usdPerJpy={fx.data?.rate ?? null} />
+                  <ItemCard item={item} usdPerJpy={fx.data?.rate ?? null} lang={lang} />
                 </li>
               ))}
             </ul>
@@ -109,10 +110,32 @@ function App() {
 
       <footer className="footer">
         <p>
-          환율 데이터 출처: <a href="https://frankfurter.dev" target="_blank">frankfurter.dev</a>
+          {m.fxSourcePrefix}{' '}
+          <a href="https://frankfurter.dev" target="_blank" rel="noreferrer">
+            frankfurter.dev
+          </a>
         </p>
-        <p>가격 정보는 참고용이며 실제 가격과 다를 수 있습니다.</p>
+        <p>{m.disclaimer}</p>
       </footer>
+    </div>
+  )
+}
+
+function LanguageSwitcher() {
+  const { lang, setLang, m } = useI18n()
+  return (
+    <div className="lang-switcher" role="group" aria-label={m.langSwitcherLabel}>
+      {LANGUAGES.map((l) => (
+        <button
+          key={l}
+          type="button"
+          className={l === lang ? 'lang-btn active' : 'lang-btn'}
+          onClick={() => setLang(l)}
+          aria-pressed={l === lang}
+        >
+          {LANGUAGE_NAMES[l]}
+        </button>
+      ))}
     </div>
   )
 }
@@ -146,18 +169,28 @@ function FxBanner({
   loading: boolean
   error: string | null
 }) {
-  if (loading) return <div className="fx">환율 불러오는 중...</div>
-  if (error || rate == null) return <div className="fx fx-error">환율 로드 실패</div>
+  const { m } = useI18n()
+  if (loading) return <div className="fx">{m.fxLoading}</div>
+  if (error || rate == null) return <div className="fx fx-error">{m.fxError}</div>
   const jpyPerUsd = 1 / rate
   return (
     <div className="fx">
-      현재 환율 <strong>1 USD = ¥{jpyPerUsd.toFixed(2)}</strong>
+      {m.fxLabel} <strong>1 USD = ¥{jpyPerUsd.toFixed(2)}</strong>
       <span className="fx-sub"> · 1 JPY = ${rate.toFixed(5)}</span>
     </div>
   )
 }
 
-function ItemCard({ item, usdPerJpy }: { item: Item; usdPerJpy: number | null }) {
+function ItemCard({
+  item,
+  usdPerJpy,
+  lang,
+}: {
+  item: Item
+  usdPerJpy: number | null
+  lang: Language
+}) {
+  const { m } = useI18n()
   const buyCostUsd = usdPerJpy != null ? item.priceJpy * usdPerJpy : null
   const margin =
     buyCostUsd != null ? item.estimatedPriceUsd - buyCostUsd : null
@@ -166,28 +199,30 @@ function ItemCard({ item, usdPerJpy }: { item: Item; usdPerJpy: number | null })
       ? (margin / buyCostUsd) * 100
       : null
 
+  const showJpSubtitle = lang !== 'ja'
+
   return (
     <article className="card">
       <div className="card-head">
-        <h2>{item.name}</h2>
-        {item.nameJp && <p className="name-jp">{item.nameJp}</p>}
+        <h2>{item.name[lang]}</h2>
+        {showJpSubtitle && <p className="name-jp">{item.name.ja}</p>}
       </div>
 
       <div className="prices">
         <div>
-          <span className="label">구매가</span>
+          <span className="label">{m.labelBuyPrice}</span>
           <span className="value">¥{item.priceJpy.toLocaleString()}</span>
           {buyCostUsd != null && (
             <span className="usd">≈ ${buyCostUsd.toFixed(2)}</span>
           )}
         </div>
         <div>
-          <span className="label">예상 판매가</span>
+          <span className="label">{m.labelEstimatedPrice}</span>
           <span className="value">${item.estimatedPriceUsd.toLocaleString()}</span>
         </div>
         {margin != null && marginPct != null && (
           <div className={marginPct > 0 ? 'margin pos' : 'margin neg'}>
-            <span className="label">예상 마진</span>
+            <span className="label">{m.labelMargin}</span>
             <span className="value">
               ${margin.toFixed(2)} ({marginPct.toFixed(0)}%)
             </span>
@@ -197,9 +232,9 @@ function ItemCard({ item, usdPerJpy }: { item: Item; usdPerJpy: number | null })
 
       <div className="meta">
         <p>
-          <strong>구매처:</strong> {item.whereToBuy}
+          <strong>{m.labelBuyAt}</strong> {item.whereToBuy[lang]}
         </p>
-        <p className="notes">{item.notes}</p>
+        <p className="notes">{item.notes[lang]}</p>
       </div>
     </article>
   )
