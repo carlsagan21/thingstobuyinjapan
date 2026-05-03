@@ -8,7 +8,7 @@
     },
     "category": "collectibles",
     "priceJpy": 5500,
-    "estimatedPriceUsd": 80,
+    "estimatedPriceUsd": 85,
     "whereToBuy": {
       "ko": "포켓몬 센터, 빅카메라, 요도바시",
       "en": "Pokémon Center, Bic Camera, Yodobashi",
@@ -113,7 +113,7 @@
     },
     "category": "food",
     "priceJpy": 3000,
-    "estimatedPriceUsd": 40,
+    "estimatedPriceUsd": 35,
     "whereToBuy": {
       "ko": "돈키호테, 공항 면세점",
       "en": "Don Quijote, airport duty-free",
@@ -260,7 +260,7 @@
     },
     "category": "stationery",
     "priceJpy": 2000,
-    "estimatedPriceUsd": 30,
+    "estimatedPriceUsd": 35,
     "whereToBuy": {
       "ko": "로프트, 토큐핸즈, 세카이도",
       "en": "Loft, Tokyu Hands, Sekaido",
@@ -386,7 +386,7 @@
     },
     "category": "beauty",
     "priceJpy": 2400,
-    "estimatedPriceUsd": 35,
+    "estimatedPriceUsd": 25,
     "whereToBuy": {
       "ko": "마쓰모토 키요시, 웰시아",
       "en": "Matsumoto Kiyoshi, Welcia",
@@ -407,7 +407,7 @@
     },
     "category": "beauty",
     "priceJpy": 3500,
-    "estimatedPriceUsd": 50,
+    "estimatedPriceUsd": 25,
     "whereToBuy": {
       "ko": "돈키호테, 마쓰모토 키요시",
       "en": "Don Quijote, Matsumoto Kiyoshi",
@@ -512,7 +512,7 @@
     },
     "category": "collectibles",
     "priceJpy": 6500,
-    "estimatedPriceUsd": 100,
+    "estimatedPriceUsd": 90,
     "whereToBuy": {
       "ko": "GOODSMILE ONLINE SHOP, 아키하바라",
       "en": "GOODSMILE ONLINE SHOP, Akihabara",
@@ -743,7 +743,7 @@
     },
     "category": "gaming",
     "priceJpy": 6000,
-    "estimatedPriceUsd": 95,
+    "estimatedPriceUsd": 80,
     "whereToBuy": {
       "ko": "수루가야, 만다라케, 토이저러스 일본",
       "en": "Suruga-ya, Mandarake, Toys\"R\"Us Japan",
@@ -764,7 +764,7 @@
     },
     "category": "gaming",
     "priceJpy": 6500,
-    "estimatedPriceUsd": 105,
+    "estimatedPriceUsd": 90,
     "whereToBuy": {
       "ko": "수루가야, 빅카메라, 토이즈러스",
       "en": "Suruga-ya, Bic Camera, Toys\"R\"Us",
@@ -785,7 +785,7 @@
     },
     "category": "gaming",
     "priceJpy": 6500,
-    "estimatedPriceUsd": 110,
+    "estimatedPriceUsd": 95,
     "whereToBuy": {
       "ko": "포켓몬 센터 (만다라케), 수루가야",
       "en": "Mandarake, Suruga-ya, hobby shops",
@@ -869,7 +869,7 @@
     },
     "category": "stationery",
     "priceJpy": 1500,
-    "estimatedPriceUsd": 30,
+    "estimatedPriceUsd": 24,
     "whereToBuy": {
       "ko": "이토야, 세카이도, 마루젠",
       "en": "Itoya, Sekaido, Maruzen",
@@ -890,7 +890,7 @@
     },
     "category": "stationery",
     "priceJpy": 1400,
-    "estimatedPriceUsd": 40,
+    "estimatedPriceUsd": 29,
     "whereToBuy": {
       "ko": "Sailor 직영점, 마루젠, 이토야",
       "en": "Sailor direct, Maruzen, Itoya",
@@ -974,7 +974,7 @@
     },
     "category": "stationery",
     "priceJpy": 4500,
-    "estimatedPriceUsd": 65,
+    "estimatedPriceUsd": 55,
     "whereToBuy": {
       "ko": "Travelers Factory (도쿄, 나라마치), 로프트",
       "en": "Travelers Factory (Tokyo, Naramachi), Loft",
@@ -995,7 +995,7 @@
     },
     "category": "stationery",
     "priceJpy": 1100,
-    "estimatedPriceUsd": 28,
+    "estimatedPriceUsd": 20,
     "whereToBuy": {
       "ko": "로프트, 토큐핸즈, 세카이도",
       "en": "Loft, Tokyu Hands, Sekaido",
@@ -1016,7 +1016,7 @@
     },
     "category": "stationery",
     "priceJpy": 3000,
-    "estimatedPriceUsd": 50,
+    "estimatedPriceUsd": 20,
     "whereToBuy": {
       "ko": "로프트, 토큐핸즈, 돈키호테",
       "en": "Loft, Tokyu Hands, Don Quijote",
@@ -1037,7 +1037,7 @@
     },
     "category": "stationery",
     "priceJpy": 1900,
-    "estimatedPriceUsd": 35,
+    "estimatedPriceUsd": 30,
     "whereToBuy": {
       "ko": "로프트, 토큐핸즈, NIPPONIA",
       "en": "Loft, Tokyu Hands, NIPPONIA",
@@ -1058,7 +1058,7 @@
     },
     "category": "stationery",
     "priceJpy": 1500,
-    "estimatedPriceUsd": 25,
+    "estimatedPriceUsd": 22,
     "whereToBuy": {
       "ko": "로프트, 토큐핸즈, 세카이도",
       "en": "Loft, Tokyu Hands, Sekaido",
@@ -1079,7 +1079,7 @@
     },
     "category": "beauty",
     "priceJpy": 2700,
-    "estimatedPriceUsd": 45,
+    "estimatedPriceUsd": 30,
     "whereToBuy": {
       "ko": "마쓰모토 키요시, 웰시아, 돈키호테",
       "en": "Matsumoto Kiyoshi, Welcia, Don Quijote",
@@ -1100,7 +1100,7 @@
     },
     "category": "beauty",
     "priceJpy": 2800,
-    "estimatedPriceUsd": 45,
+    "estimatedPriceUsd": 35,
     "whereToBuy": {
       "ko": "마쓰모토 키요시, 웰시아, 면세점",
       "en": "Matsumoto Kiyoshi, Welcia, duty-free",
@@ -1121,7 +1121,7 @@
     },
     "category": "beauty",
     "priceJpy": 900,
-    "estimatedPriceUsd": 22,
+    "estimatedPriceUsd": 18,
     "whereToBuy": {
       "ko": "마쓰모토 키요시, 웰시아",
       "en": "Matsumoto Kiyoshi, Welcia",
@@ -1142,7 +1142,7 @@
     },
     "category": "beauty",
     "priceJpy": 3500,
-    "estimatedPriceUsd": 55,
+    "estimatedPriceUsd": 32,
     "whereToBuy": {
       "ko": "마쓰모토 키요시, 도큐핸즈",
       "en": "Matsumoto Kiyoshi, Tokyu Hands",
@@ -1163,7 +1163,7 @@
     },
     "category": "beauty",
     "priceJpy": 600,
-    "estimatedPriceUsd": 18,
+    "estimatedPriceUsd": 13,
     "whereToBuy": {
       "ko": "마쓰모토 키요시, 돈키호테",
       "en": "Matsumoto Kiyoshi, Don Quijote",
@@ -1268,7 +1268,7 @@
     },
     "category": "beauty",
     "priceJpy": 1300,
-    "estimatedPriceUsd": 25,
+    "estimatedPriceUsd": 23,
     "whereToBuy": {
       "ko": "마쓰모토 키요시, 웰시아",
       "en": "Matsumoto Kiyoshi, Welcia",
@@ -1520,7 +1520,7 @@
     },
     "category": "collectibles",
     "priceJpy": 3500,
-    "estimatedPriceUsd": 60,
+    "estimatedPriceUsd": 55,
     "whereToBuy": {
       "ko": "포켓몬 센터 도쿄 / 메가도쿄 / 오사카",
       "en": "Pokémon Center Tokyo / MEGA TOKYO / Osaka",
@@ -1562,7 +1562,7 @@
     },
     "category": "collectibles",
     "priceJpy": 7500,
-    "estimatedPriceUsd": 150,
+    "estimatedPriceUsd": 120,
     "whereToBuy": {
       "ko": "Gundam Base 도쿄, 아키하바라 요도바시",
       "en": "Gundam Base Tokyo, Yodobashi Akiba",
