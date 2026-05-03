@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sookiwi.com/thingstobuyinjapan/sitemap.xml

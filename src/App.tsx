@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useExchangeRate, useItems } from './hooks'
 import type { Category, Item, Language } from './types'
 import { useI18n } from './i18n/I18nContext'
@@ -13,10 +13,6 @@ function App() {
   const { lang, m } = useI18n()
   const [selectedCategory, setSelectedCategory] = useState<Category | 'all'>('all')
   const [sortMode, setSortMode] = useState<SortMode>('default')
-
-  useEffect(() => {
-    document.title = m.title
-  }, [m.title])
 
   const categories = useMemo(() => {
     if (!items.data) return []

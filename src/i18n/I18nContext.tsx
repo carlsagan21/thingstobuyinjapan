@@ -3,27 +3,70 @@ import type { ReactNode } from 'react'
 import type { Language } from '../types'
 import { LANGUAGES, MESSAGES, type Messages } from './messages'
 
-const URL_PARAM = 'lang'
 const DEFAULT_LANG: Language = 'en'
+const CANONICAL_ORIGIN = 'https://sookiwi.com'
 
-function isLanguage(value: string | null): value is Language {
-  return value != null && (LANGUAGES as readonly string[]).includes(value)
+const LOCALES: Record<Language, string> = {
+  en: 'en_US',
+  ko: 'ko_KR',
+  ja: 'ja_JP',
 }
 
-function readLangFromUrl(): Language | null {
-  if (typeof window === 'undefined') return null
-  const value = new URLSearchParams(window.location.search).get(URL_PARAM)
-  return isLanguage(value) ? value : null
+function isLanguage(value: string): value is Language {
+  return (LANGUAGES as readonly string[]).includes(value)
 }
 
-function writeLangToUrl(lang: Language) {
+function getBase(): string {
+  return import.meta.env.BASE_URL
+}
+
+function readLangFromPath(): Language {
+  if (typeof window === 'undefined') return DEFAULT_LANG
+  const base = getBase()
+  const path = window.location.pathname
+  const sub = path.startsWith(base) ? path.slice(base.length) : path
+  const segment = sub.split('/')[0]
+  if (segment && isLanguage(segment) && segment !== DEFAULT_LANG) return segment
+  return DEFAULT_LANG
+}
+
+function pathForLang(lang: Language): string {
+  const base = getBase()
+  if (lang === DEFAULT_LANG) return base
+  return `${base}${lang}/`
+}
+
+function writeLangToPath(lang: Language) {
+  const targetPath = pathForLang(lang)
   const url = new URL(window.location.href)
-  if (lang === DEFAULT_LANG) {
-    url.searchParams.delete(URL_PARAM)
-  } else {
-    url.searchParams.set(URL_PARAM, lang)
-  }
+  url.pathname = targetPath
   window.history.replaceState({}, '', url)
+}
+
+function setMetaContent(selector: string, value: string) {
+  const el = document.querySelector(selector)
+  if (el) el.setAttribute('content', value)
+}
+
+function setLinkHref(selector: string, value: string) {
+  const el = document.querySelector(selector)
+  if (el) el.setAttribute('href', value)
+}
+
+function syncDocumentMeta(lang: Language) {
+  const m = MESSAGES[lang]
+  const canonicalUrl = `${CANONICAL_ORIGIN}${pathForLang(lang)}`
+
+  document.documentElement.lang = lang
+  document.title = m.title
+
+  setMetaContent('meta[name="description"]', m.subtitle)
+  setLinkHref('link[rel="canonical"]', canonicalUrl)
+
+  setMetaContent('meta[property="og:title"]', m.title)
+  setMetaContent('meta[property="og:description"]', m.subtitle)
+  setMetaContent('meta[property="og:url"]', canonicalUrl)
+  setMetaContent('meta[property="og:locale"]', LOCALES[lang])
 }
 
 interface I18nContextValue {
@@ -35,15 +78,15 @@ interface I18nContextValue {
 const I18nContext = createContext<I18nContextValue | null>(null)
 
 export function I18nProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Language>(() => readLangFromUrl() ?? DEFAULT_LANG)
+  const [lang, setLangState] = useState<Language>(readLangFromPath)
 
   useEffect(() => {
-    document.documentElement.lang = lang
+    syncDocumentMeta(lang)
   }, [lang])
 
   useEffect(() => {
     const onPopState = () => {
-      setLangState(readLangFromUrl() ?? DEFAULT_LANG)
+      setLangState(readLangFromPath())
     }
     window.addEventListener('popstate', onPopState)
     return () => window.removeEventListener('popstate', onPopState)
@@ -53,7 +96,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     () => ({
       lang,
       setLang: (l) => {
-        writeLangToUrl(l)
+        writeLangToPath(l)
         setLangState(l)
       },
       m: MESSAGES[lang],

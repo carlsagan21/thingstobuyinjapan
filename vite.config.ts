@@ -5,4 +5,13 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/thingstobuyinjapan/',
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html',
+        ko: './ko/index.html',
+        ja: './ja/index.html',
+      },
+    },
+  },
 })
