@@ -29,7 +29,7 @@
     },
     "category": "gaming",
     "priceJpy": 9800,
-    "estimatedPriceUsd": 120,
+    "estimatedPriceUsd": 100,
     "whereToBuy": {
       "ko": "닌텐도 도쿄 스토어, 빅카메라",
       "en": "Nintendo Tokyo, Bic Camera",
@@ -50,7 +50,7 @@
     },
     "category": "stationery",
     "priceJpy": 22000,
-    "estimatedPriceUsd": 220,
+    "estimatedPriceUsd": 200,
     "whereToBuy": {
       "ko": "이토야, 마루젠, 세카이도",
       "en": "Itoya, Maruzen, Sekaido",
@@ -71,7 +71,7 @@
     },
     "category": "electronics",
     "priceJpy": 12000,
-    "estimatedPriceUsd": 150,
+    "estimatedPriceUsd": 120,
     "whereToBuy": {
       "ko": "빅카메라, 요도바시 카메라",
       "en": "Bic Camera, Yodobashi Camera",
@@ -92,7 +92,7 @@
     },
     "category": "beauty",
     "priceJpy": 18000,
-    "estimatedPriceUsd": 200,
+    "estimatedPriceUsd": 180,
     "whereToBuy": {
       "ko": "이세탄, 한큐, 면세점",
       "en": "Isetan, Hankyu, duty-free",
@@ -134,7 +134,7 @@
     },
     "category": "watches",
     "priceJpy": 28000,
-    "estimatedPriceUsd": 350,
+    "estimatedPriceUsd": 300,
     "whereToBuy": {
       "ko": "카시오 공식 스토어, 빅카메라",
       "en": "Casio official store, Bic Camera",
@@ -155,7 +155,7 @@
     },
     "category": "collectibles",
     "priceJpy": 15000,
-    "estimatedPriceUsd": 180,
+    "estimatedPriceUsd": 150,
     "whereToBuy": {
       "ko": "Tamashii Nations Store, 아키하바라",
       "en": "Tamashii Nations Store, Akihabara",
@@ -176,7 +176,7 @@
     },
     "category": "fashion",
     "priceJpy": 4500,
-    "estimatedPriceUsd": 55,
+    "estimatedPriceUsd": 45,
     "whereToBuy": {
       "ko": "무지 후랏그십 스토어 (긴자 등)",
       "en": "Muji flagship stores (Ginza, etc.)",
@@ -239,7 +239,7 @@
     },
     "category": "stationery",
     "priceJpy": 12000,
-    "estimatedPriceUsd": 200,
+    "estimatedPriceUsd": 180,
     "whereToBuy": {
       "ko": "이토야, 마루젠, 빅카메라",
       "en": "Itoya, Maruzen, Bic Camera",
@@ -281,7 +281,7 @@
     },
     "category": "electronics",
     "priceJpy": 105000,
-    "estimatedPriceUsd": 950,
+    "estimatedPriceUsd": 900,
     "whereToBuy": {
       "ko": "맙푸 카메라, 후지야 카메라, 빅카메라 중고",
       "en": "Map Camera, Fujiya Camera, Bic Camera Used",
@@ -302,7 +302,7 @@
     },
     "category": "electronics",
     "priceJpy": 39000,
-    "estimatedPriceUsd": 300,
+    "estimatedPriceUsd": 250,
     "whereToBuy": {
       "ko": "요도바시, 빅카메라, 면세점",
       "en": "Yodobashi, Bic Camera, duty-free",
@@ -323,7 +323,7 @@
     },
     "category": "watches",
     "priceJpy": 320000,
-    "estimatedPriceUsd": 3200,
+    "estimatedPriceUsd": 3500,
     "whereToBuy": {
       "ko": "그랜드 세이코 부티크, 와코",
       "en": "Grand Seiko Boutique, Wako",
@@ -344,7 +344,7 @@
     },
     "category": "watches",
     "priceJpy": 32000,
-    "estimatedPriceUsd": 380,
+    "estimatedPriceUsd": 350,
     "whereToBuy": {
       "ko": "세이코 부티크, 빅카메라",
       "en": "Seiko Boutique, Bic Camera",
@@ -365,7 +365,7 @@
     },
     "category": "beauty",
     "priceJpy": 6000,
-    "estimatedPriceUsd": 90,
+    "estimatedPriceUsd": 70,
     "whereToBuy": {
       "ko": "이세탄, 도큐핸즈, 마쓰모토 키요시",
       "en": "Isetan, Tokyu Hands, Matsumoto Kiyoshi",
@@ -428,7 +428,7 @@
     },
     "category": "fashion",
     "priceJpy": 14000,
-    "estimatedPriceUsd": 200,
+    "estimatedPriceUsd": 170,
     "whereToBuy": {
       "ko": "오니츠카 타이거 긴자, 신주쿠 매장",
       "en": "Onitsuka Tiger Ginza, Shinjuku stores",
@@ -449,7 +449,7 @@
     },
     "category": "fashion",
     "priceJpy": 35000,
-    "estimatedPriceUsd": 450,
+    "estimatedPriceUsd": 400,
     "whereToBuy": {
       "ko": "BAPE 하라주쿠, 시부야",
       "en": "BAPE Harajuku, Shibuya",
@@ -470,7 +470,7 @@
     },
     "category": "collectibles",
     "priceJpy": 4000,
-    "estimatedPriceUsd": 65,
+    "estimatedPriceUsd": 55,
     "whereToBuy": {
       "ko": "돈구리 공화국, 지브리 미술관, 지브리 파크",
       "en": "Donguri Republic, Ghibli Museum, Ghibli Park",
@@ -491,7 +491,7 @@
     },
     "category": "collectibles",
     "priceJpy": 3500,
-    "estimatedPriceUsd": 55,
+    "estimatedPriceUsd": 45,
     "whereToBuy": {
       "ko": "산리오 퓨로랜드, 산리오 직영점",
       "en": "Sanrio Puroland, Sanrio direct stores",
@@ -533,7 +533,7 @@
     },
     "category": "electronics",
     "priceJpy": 39800,
-    "estimatedPriceUsd": 320,
+    "estimatedPriceUsd": 280,
     "whereToBuy": {
       "ko": "e-earphone, 요도바시, 빅카메라",
       "en": "e-earphone, Yodobashi, Bic Camera",
@@ -554,7 +554,7 @@
     },
     "category": "electronics",
     "priceJpy": 38000,
-    "estimatedPriceUsd": 380,
+    "estimatedPriceUsd": 340,
     "whereToBuy": {
       "ko": "e-earphone, 후지야 AVIC, 요도바시",
       "en": "e-earphone, Fujiya Avic, Yodobashi",
@@ -575,7 +575,7 @@
     },
     "category": "electronics",
     "priceJpy": 32000,
-    "estimatedPriceUsd": 380,
+    "estimatedPriceUsd": 200,
     "whereToBuy": {
       "ko": "요도바시, 빅카메라, e-earphone",
       "en": "Yodobashi, Bic Camera, e-earphone",
@@ -596,7 +596,7 @@
     },
     "category": "electronics",
     "priceJpy": 50000,
-    "estimatedPriceUsd": 500,
+    "estimatedPriceUsd": 400,
     "whereToBuy": {
       "ko": "요도바시, 빅카메라",
       "en": "Yodobashi, Bic Camera",
@@ -617,7 +617,7 @@
     },
     "category": "electronics",
     "priceJpy": 27000,
-    "estimatedPriceUsd": 320,
+    "estimatedPriceUsd": 250,
     "whereToBuy": {
       "ko": "Balmuda 직영, 츠타야 가전, 츠루야",
       "en": "Balmuda direct, Tsutaya Electrics, Tsuruya",
@@ -638,7 +638,7 @@
     },
     "category": "electronics",
     "priceJpy": 18000,
-    "estimatedPriceUsd": 260,
+    "estimatedPriceUsd": 200,
     "whereToBuy": {
       "ko": "츠타야 가전, 빅카메라, 라쿠텐",
       "en": "Tsutaya Electrics, Bic Camera, Rakuten",
@@ -659,7 +659,7 @@
     },
     "category": "electronics",
     "priceJpy": 85000,
-    "estimatedPriceUsd": 850,
+    "estimatedPriceUsd": 750,
     "whereToBuy": {
       "ko": "맙푸 카메라, 후지야 카메라, 키타무라 카메라",
       "en": "Map Camera, Fujiya Camera, Kitamura",
@@ -680,7 +680,7 @@
     },
     "category": "electronics",
     "priceJpy": 9500,
-    "estimatedPriceUsd": 140,
+    "estimatedPriceUsd": 100,
     "whereToBuy": {
       "ko": "코메리, 빅카메라, 라쿠텐",
       "en": "Komeri, Bic Camera, Rakuten",
@@ -701,7 +701,7 @@
     },
     "category": "electronics",
     "priceJpy": 18000,
-    "estimatedPriceUsd": 220,
+    "estimatedPriceUsd": 250,
     "whereToBuy": {
       "ko": "수루가야, 만다라케, 라쿠텐",
       "en": "Suruga-ya, Mandarake, Rakuten",
@@ -722,7 +722,7 @@
     },
     "category": "gaming",
     "priceJpy": 75000,
-    "estimatedPriceUsd": 700,
+    "estimatedPriceUsd": 600,
     "whereToBuy": {
       "ko": "소니 스토어, 요도바시, 빅카메라",
       "en": "Sony Store, Yodobashi, Bic Camera",
@@ -806,7 +806,7 @@
     },
     "category": "gaming",
     "priceJpy": 18000,
-    "estimatedPriceUsd": 240,
+    "estimatedPriceUsd": 200,
     "whereToBuy": {
       "ko": "FamiTsu 통판, 수루가야",
       "en": "Famitsu mail-order, Suruga-ya",
@@ -827,7 +827,7 @@
     },
     "category": "gaming",
     "priceJpy": 9000,
-    "estimatedPriceUsd": 140,
+    "estimatedPriceUsd": 100,
     "whereToBuy": {
       "ko": "닌텐도 도쿄, 빅카메라",
       "en": "Nintendo Tokyo, Bic Camera",
@@ -848,7 +848,7 @@
     },
     "category": "gaming",
     "priceJpy": 15000,
-    "estimatedPriceUsd": 220,
+    "estimatedPriceUsd": 150,
     "whereToBuy": {
       "ko": "수루가야, 만다라케, 아키하바라 슈퍼포테토",
       "en": "Suruga-ya, Mandarake, Super Potato Akihabara",
@@ -911,7 +911,7 @@
     },
     "category": "stationery",
     "priceJpy": 18000,
-    "estimatedPriceUsd": 220,
+    "estimatedPriceUsd": 150,
     "whereToBuy": {
       "ko": "이토야, 마루젠, 빅카메라",
       "en": "Itoya, Maruzen, Bic Camera",
@@ -932,7 +932,7 @@
     },
     "category": "stationery",
     "priceJpy": 50000,
-    "estimatedPriceUsd": 750,
+    "estimatedPriceUsd": 1100,
     "whereToBuy": {
       "ko": "Nakaya 본점 (도쿄), 공식 통판",
       "en": "Nakaya Tokyo flagship, official mail-order",
@@ -953,7 +953,7 @@
     },
     "category": "stationery",
     "priceJpy": 42000,
-    "estimatedPriceUsd": 580,
+    "estimatedPriceUsd": 480,
     "whereToBuy": {
       "ko": "이토야 긴자",
       "en": "Itoya Ginza",
@@ -1184,7 +1184,7 @@
     },
     "category": "beauty",
     "priceJpy": 9500,
-    "estimatedPriceUsd": 160,
+    "estimatedPriceUsd": 120,
     "whereToBuy": {
       "ko": "이세탄, 한큐, 미츠코시",
       "en": "Isetan, Hankyu, Mitsukoshi",
@@ -1205,7 +1205,7 @@
     },
     "category": "beauty",
     "priceJpy": 40000,
-    "estimatedPriceUsd": 580,
+    "estimatedPriceUsd": 480,
     "whereToBuy": {
       "ko": "이세탄, 한큐, 면세점",
       "en": "Isetan, Hankyu, duty-free",
@@ -1226,7 +1226,7 @@
     },
     "category": "beauty",
     "priceJpy": 30000,
-    "estimatedPriceUsd": 420,
+    "estimatedPriceUsd": 350,
     "whereToBuy": {
       "ko": "이세탄, SUQQU 직영",
       "en": "Isetan, SUQQU direct",
@@ -1247,7 +1247,7 @@
     },
     "category": "beauty",
     "priceJpy": 10000,
-    "estimatedPriceUsd": 130,
+    "estimatedPriceUsd": 100,
     "whereToBuy": {
       "ko": "이세탄, 한큐, 면세점",
       "en": "Isetan, Hankyu, duty-free",
@@ -1289,7 +1289,7 @@
     },
     "category": "fashion",
     "priceJpy": 38000,
-    "estimatedPriceUsd": 520,
+    "estimatedPriceUsd": 450,
     "whereToBuy": {
       "ko": "도버 스트리트 마켓 긴자, 아오야마 본점",
       "en": "Dover Street Market Ginza, Aoyama flagship",
@@ -1310,7 +1310,7 @@
     },
     "category": "fashion",
     "priceJpy": 75000,
-    "estimatedPriceUsd": 1000,
+    "estimatedPriceUsd": 900,
     "whereToBuy": {
       "ko": "Visvim 메구로, 교토",
       "en": "Visvim Meguro, Kyoto",
@@ -1331,7 +1331,7 @@
     },
     "category": "fashion",
     "priceJpy": 35000,
-    "estimatedPriceUsd": 500,
+    "estimatedPriceUsd": 450,
     "whereToBuy": {
       "ko": "Kapital 도쿄 (에비스, 시부야)",
       "en": "Kapital Tokyo (Ebisu, Shibuya)",
@@ -1352,7 +1352,7 @@
     },
     "category": "fashion",
     "priceJpy": 45000,
-    "estimatedPriceUsd": 680,
+    "estimatedPriceUsd": 550,
     "whereToBuy": {
       "ko": "GIP STORE 도쿄, 시부야",
       "en": "GIP STORE Tokyo, Shibuya",
@@ -1373,7 +1373,7 @@
     },
     "category": "fashion",
     "priceJpy": 12000,
-    "estimatedPriceUsd": 180,
+    "estimatedPriceUsd": 150,
     "whereToBuy": {
       "ko": "Beams Japan 신주쿠, 시부야",
       "en": "Beams Japan Shinjuku, Shibuya",
@@ -1394,7 +1394,7 @@
     },
     "category": "fashion",
     "priceJpy": 40000,
-    "estimatedPriceUsd": 580,
+    "estimatedPriceUsd": 480,
     "whereToBuy": {
       "ko": "Y's 직영, 이세탄 멘즈",
       "en": "Y's direct, Isetan Men's",
@@ -1415,7 +1415,7 @@
     },
     "category": "fashion",
     "priceJpy": 45000,
-    "estimatedPriceUsd": 600,
+    "estimatedPriceUsd": 500,
     "whereToBuy": {
       "ko": "T-HOUSE New Balance, 빔스 보이",
       "en": "T-HOUSE New Balance, Beams Boy",
@@ -1436,7 +1436,7 @@
     },
     "category": "fashion",
     "priceJpy": 85000,
-    "estimatedPriceUsd": 1100,
+    "estimatedPriceUsd": 900,
     "whereToBuy": {
       "ko": "東洋エンタープライズ 직영, 이세탄 멘즈",
       "en": "Toyo Enterprise direct, Isetan Men's",
@@ -1457,7 +1457,7 @@
     },
     "category": "collectibles",
     "priceJpy": 4500,
-    "estimatedPriceUsd": 80,
+    "estimatedPriceUsd": 65,
     "whereToBuy": {
       "ko": "도쿄 디즈니랜드 / 디즈니씨 매장",
       "en": "Tokyo Disneyland / DisneySea shops",
@@ -1478,7 +1478,7 @@
     },
     "category": "collectibles",
     "priceJpy": 4000,
-    "estimatedPriceUsd": 75,
+    "estimatedPriceUsd": 60,
     "whereToBuy": {
       "ko": "유니버설 스튜디오 재팬",
       "en": "Universal Studios Japan",
@@ -1499,7 +1499,7 @@
     },
     "category": "collectibles",
     "priceJpy": 3000,
-    "estimatedPriceUsd": 55,
+    "estimatedPriceUsd": 45,
     "whereToBuy": {
       "ko": "Jump Shop 도쿄 / 시부야",
       "en": "Jump Shop Tokyo / Shibuya",
@@ -1541,7 +1541,7 @@
     },
     "category": "collectibles",
     "priceJpy": 9000,
-    "estimatedPriceUsd": 200,
+    "estimatedPriceUsd": 160,
     "whereToBuy": {
       "ko": "Premium Bandai 공식 통판",
       "en": "Premium Bandai official mail-order",
@@ -1583,7 +1583,7 @@
     },
     "category": "collectibles",
     "priceJpy": 12000,
-    "estimatedPriceUsd": 180,
+    "estimatedPriceUsd": 150,
     "whereToBuy": {
       "ko": "아니메이트, 라신반, 만다라케",
       "en": "Animate, Lashinbang, Mandarake",
@@ -1604,7 +1604,7 @@
     },
     "category": "collectibles",
     "priceJpy": 3000,
-    "estimatedPriceUsd": 55,
+    "estimatedPriceUsd": 45,
     "whereToBuy": {
       "ko": "Jump Shop, 무비코미 도쿄",
       "en": "Jump Shop, Mu-vi-comi Tokyo",
@@ -1625,7 +1625,7 @@
     },
     "category": "collectibles",
     "priceJpy": 5000,
-    "estimatedPriceUsd": 95,
+    "estimatedPriceUsd": 100,
     "whereToBuy": {
       "ko": "Hololive Production Store 도쿄, GeeStore",
       "en": "Hololive Production Store Tokyo, GeeStore",
@@ -1646,7 +1646,7 @@
     },
     "category": "collectibles",
     "priceJpy": 6000,
-    "estimatedPriceUsd": 130,
+    "estimatedPriceUsd": 110,
     "whereToBuy": {
       "ko": "지브리 파크 (아이치)",
       "en": "Ghibli Park (Aichi)",
@@ -1667,7 +1667,7 @@
     },
     "category": "collectibles",
     "priceJpy": 3000,
-    "estimatedPriceUsd": 80,
+    "estimatedPriceUsd": 65,
     "whereToBuy": {
       "ko": "코미케 (도쿄빅사이트)",
       "en": "Comiket (Tokyo Big Sight)",
@@ -1688,7 +1688,7 @@
     },
     "category": "food",
     "priceJpy": 800,
-    "estimatedPriceUsd": 22,
+    "estimatedPriceUsd": 18,
     "whereToBuy": {
       "ko": "치토세 공항, 도쿄 백화점, JR역사",
       "en": "Chitose Airport, Tokyo department stores, JR stations",
@@ -1709,7 +1709,7 @@
     },
     "category": "food",
     "priceJpy": 1300,
-    "estimatedPriceUsd": 28,
+    "estimatedPriceUsd": 22,
     "whereToBuy": {
       "ko": "도쿄역, 하네다, 나리타 공항",
       "en": "Tokyo Station, Haneda, Narita airports",
@@ -1730,7 +1730,7 @@
     },
     "category": "food",
     "priceJpy": 3500,
-    "estimatedPriceUsd": 55,
+    "estimatedPriceUsd": 45,
     "whereToBuy": {
       "ko": "이세탄, 한큐, 백화점 식품관",
       "en": "Isetan, Hankyu, depachika food halls",
@@ -1751,7 +1751,7 @@
     },
     "category": "food",
     "priceJpy": 3500,
-    "estimatedPriceUsd": 60,
+    "estimatedPriceUsd": 50,
     "whereToBuy": {
       "ko": "Ippodo 교토 본점, 도쿄 마루노우치",
       "en": "Ippodo Kyoto flagship, Tokyo Marunouchi",
@@ -1772,7 +1772,7 @@
     },
     "category": "food",
     "priceJpy": 3500,
-    "estimatedPriceUsd": 55,
+    "estimatedPriceUsd": 45,
     "whereToBuy": {
       "ko": "돈키호테, 마트, 공항",
       "en": "Don Quijote, supermarkets, airports",
@@ -1793,7 +1793,7 @@
     },
     "category": "food",
     "priceJpy": 1200,
-    "estimatedPriceUsd": 28,
+    "estimatedPriceUsd": 22,
     "whereToBuy": {
       "ko": "수퍼마켓, 돈키호테",
       "en": "Supermarkets, Don Quijote",
@@ -1814,7 +1814,7 @@
     },
     "category": "food",
     "priceJpy": 4000,
-    "estimatedPriceUsd": 55,
+    "estimatedPriceUsd": 45,
     "whereToBuy": {
       "ko": "이치란 매장, 공항 면세점",
       "en": "Ichiran stores, airport duty-free",
@@ -1835,7 +1835,7 @@
     },
     "category": "food",
     "priceJpy": 800,
-    "estimatedPriceUsd": 18,
+    "estimatedPriceUsd": 15,
     "whereToBuy": {
       "ko": "수퍼마켓, 돈키호테",
       "en": "Supermarkets, Don Quijote",
@@ -1856,7 +1856,7 @@
     },
     "category": "food",
     "priceJpy": 2500,
-    "estimatedPriceUsd": 40,
+    "estimatedPriceUsd": 35,
     "whereToBuy": {
       "ko": "지역 휴게소, 백화점 한정 코너",
       "en": "Regional rest areas, department-store regional corners",
@@ -1877,7 +1877,7 @@
     },
     "category": "watches",
     "priceJpy": 85000,
-    "estimatedPriceUsd": 1000,
+    "estimatedPriceUsd": 750,
     "whereToBuy": {
       "ko": "Citizen 직영, 빅카메라 시계 코너",
       "en": "Citizen flagship, Bic Camera watch dept.",
@@ -1898,7 +1898,7 @@
     },
     "category": "watches",
     "priceJpy": 80000,
-    "estimatedPriceUsd": 1100,
+    "estimatedPriceUsd": 900,
     "whereToBuy": {
       "ko": "Seiko 부티크, 와코 긴자",
       "en": "Seiko Boutique, Wako Ginza",
@@ -1919,7 +1919,7 @@
     },
     "category": "watches",
     "priceJpy": 55000,
-    "estimatedPriceUsd": 720,
+    "estimatedPriceUsd": 600,
     "whereToBuy": {
       "ko": "Seiko 부티크, 빅카메라 시계 코너",
       "en": "Seiko Boutique, Bic Camera watch dept.",
@@ -1940,7 +1940,7 @@
     },
     "category": "watches",
     "priceJpy": 90000,
-    "estimatedPriceUsd": 1100,
+    "estimatedPriceUsd": 850,
     "whereToBuy": {
       "ko": "Orient 직영, 빅카메라",
       "en": "Orient flagship, Bic Camera",
@@ -1961,7 +1961,7 @@
     },
     "category": "watches",
     "priceJpy": 220000,
-    "estimatedPriceUsd": 4000,
+    "estimatedPriceUsd": 4500,
     "whereToBuy": {
       "ko": "Kurono Tokyo 공식 통판 (추첨)",
       "en": "Kurono Tokyo official mail-order (lottery)",
@@ -1982,7 +1982,7 @@
     },
     "category": "kitchen",
     "priceJpy": 18000,
-    "estimatedPriceUsd": 220,
+    "estimatedPriceUsd": 180,
     "whereToBuy": {
       "ko": "Kappabashi, 카이 직영, 백화점 칼 코너",
       "en": "Kappabashi, KAI flagship, department-store knife corners",
@@ -2003,7 +2003,7 @@
     },
     "category": "kitchen",
     "priceJpy": 10000,
-    "estimatedPriceUsd": 140,
+    "estimatedPriceUsd": 100,
     "whereToBuy": {
       "ko": "Kappabashi 도구 거리, 라쿠텐",
       "en": "Kappabashi tools street, Rakuten",
@@ -2024,7 +2024,7 @@
     },
     "category": "kitchen",
     "priceJpy": 35000,
-    "estimatedPriceUsd": 480,
+    "estimatedPriceUsd": 400,
     "whereToBuy": {
       "ko": "Kappabashi, 사카이 직영, JCK",
       "en": "Kappabashi, Sakai flagship, JCK",
@@ -2045,7 +2045,7 @@
     },
     "category": "kitchen",
     "priceJpy": 18000,
-    "estimatedPriceUsd": 280,
+    "estimatedPriceUsd": 220,
     "whereToBuy": {
       "ko": "이가몬 매장, 미츠코시, 라쿠텐",
       "en": "Igamono shops, Mitsukoshi, Rakuten",
@@ -2066,7 +2066,7 @@
     },
     "category": "kitchen",
     "priceJpy": 12000,
-    "estimatedPriceUsd": 220,
+    "estimatedPriceUsd": 180,
     "whereToBuy": {
       "ko": "Iwachu 직영 (모리오카), 백화점 식기 코너",
       "en": "Iwachu flagship (Morioka), department-store kitchenware",
@@ -2087,7 +2087,7 @@
     },
     "category": "kitchen",
     "priceJpy": 6000,
-    "estimatedPriceUsd": 90,
+    "estimatedPriceUsd": 70,
     "whereToBuy": {
       "ko": "Hario 라쿠텐 공식, 츠타야 가전",
       "en": "Hario official Rakuten, Tsutaya Electrics",
