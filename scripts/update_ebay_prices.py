@@ -41,6 +41,9 @@ RESULTS_PER_ITEM = 50
 # Minimum number of eBay listings to trust the median price
 MIN_LISTINGS = 3
 
+# Maximum allowed price change ratio before requiring --force (100% = 1.0)
+MAX_CHANGE_RATIO = 1.0
+
 # Sleep between API calls to avoid rate limits (seconds)
 API_DELAY = 0.5
 
@@ -240,6 +243,20 @@ def extract_prices(summaries: list[dict]) -> list[float]:
     return prices
 
 
+def remove_outliers(prices: list[float]) -> list[float]:
+    """Remove outliers using IQR method (1.5× interquartile range)."""
+    if len(prices) < 4:
+        return prices
+    sorted_p = sorted(prices)
+    q1 = sorted_p[len(sorted_p) // 4]
+    q3 = sorted_p[3 * len(sorted_p) // 4]
+    iqr = q3 - q1
+    lower = q1 - 1.5 * iqr
+    upper = q3 + 1.5 * iqr
+    filtered = [p for p in prices if lower <= p <= upper]
+    return filtered if len(filtered) >= MIN_LISTINGS else prices
+
+
 def compute_median_price(prices: list[float]) -> float | None:
     """Return the median of prices, or None if insufficient data."""
     if len(prices) < MIN_LISTINGS:
@@ -293,6 +310,11 @@ def main() -> None:
         default=None,
         help="Only update a specific item by ID",
     )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Apply updates even when price change exceeds safety threshold",
+    )
     args = parser.parse_args()
 
     # Load env
@@ -340,14 +362,15 @@ def main() -> None:
         print(f"  Query: \"{query}\"")
 
         summaries = search_ebay(token, base_url, query)
-        prices = extract_prices(summaries)
+        raw_prices = extract_prices(summaries)
 
-        if not prices:
+        if not raw_prices:
             print(f"  ⚠️  No USD prices found ({len(summaries)} results)")
             skipped += 1
             time.sleep(API_DELAY)
             continue
 
+        prices = remove_outliers(raw_prices)
         median = compute_median_price(prices)
 
         if median is None:
@@ -360,8 +383,19 @@ def main() -> None:
         pct = (change / old_price * 100) if old_price else 0
         arrow = "📈" if change > 0 else "📉" if change < 0 else "="
 
-        print(f"  Listings: {len(prices)}, Range: ${min(prices):.0f}-${max(prices):.0f}")
+        outlier_note = ""
+        if len(prices) < len(raw_prices):
+            outlier_note = f" (filtered {len(raw_prices) - len(prices)} outliers)"
+
+        print(f"  Listings: {len(prices)}/{len(raw_prices)}{outlier_note}, Range: ${min(prices):.0f}-${max(prices):.0f}")
         print(f"  Median: ${median} (was ${old_price}) {arrow} {change:+.0f} ({pct:+.1f}%)")
+
+        # Safety check: skip extreme changes unless --force
+        if abs(pct) > MAX_CHANGE_RATIO * 100 and not args.force:
+            print(f"  ⛔ Skipped: change >{MAX_CHANGE_RATIO*100:.0f}% — use --force to apply")
+            skipped += 1
+            time.sleep(API_DELAY)
+            continue
 
         results_log.append({
             "id": item["id"],
