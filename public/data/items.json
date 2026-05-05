@@ -105,27 +105,6 @@
     }
   },
   {
-    "id": "pilot-custom-fp",
-    "name": {
-      "ko": "Pilot Custom 74 / 823 만년필",
-      "en": "Pilot Custom 74 / 823 Fountain Pen",
-      "ja": "パイロット カスタム74 / 823"
-    },
-    "category": "stationery",
-    "priceJpy": 12000,
-    "estimatedPriceUsd": 180,
-    "whereToBuy": {
-      "ko": "이토야, 마루젠, 빅카메라",
-      "en": "Itoya, Maruzen, Bic Camera",
-      "ja": "伊東屋、丸善、ビックカメラ"
-    },
-    "notes": {
-      "ko": "미국 정가 대비 일본 내수가가 거의 절반. FA(촉) 같은 특수 닙은 일본 단독.",
-      "en": "Japan retail is nearly half of US MSRP. Special nibs like FA are Japan-only.",
-      "ja": "アメリカ定価と比べて国内価格はほぼ半額。FAなど特殊ニブは日本専売。"
-    }
-  },
-  {
     "id": "tombow-mono-set",
     "name": {
       "ko": "Tombow Mono 한정 세트",
@@ -385,7 +364,7 @@
       "ja": "セーラー Studio インク"
     },
     "category": "stationery",
-    "priceJpy": 1400,
+    "priceJpy": 1650,
     "estimatedPriceUsd": 26,
     "whereToBuy": {
       "ko": "Sailor 직영점, 마루젠, 이토야",
@@ -406,7 +385,7 @@
       "ja": "プラチナ #3776センチュリー"
     },
     "category": "stationery",
-    "priceJpy": 18000,
+    "priceJpy": 22000,
     "estimatedPriceUsd": 299,
     "whereToBuy": {
       "ko": "이토야, 마루젠, 빅카메라",
@@ -427,7 +406,7 @@
       "ja": "中屋万年筆 オーダー"
     },
     "category": "stationery",
-    "priceJpy": 50000,
+    "priceJpy": 88000,
     "estimatedPriceUsd": 1608,
     "whereToBuy": {
       "ko": "Nakaya 본점 (도쿄), 공식 통판",
