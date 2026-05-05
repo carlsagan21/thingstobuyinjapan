@@ -151,6 +151,13 @@ SEARCH_OVERRIDES: dict[str, str] = {
     "iga-donabe": "Iga yaki donabe clay pot",
     "iwachu-tetsubin": "Iwachu Nambu cast iron teapot",
     "hario-v60-jp": "Hario V60 Japan exclusive color set",
+    "jnat-whetstone": "Japanese Natural Whetstone JNAT",
+    "city-pop-vinyl": "Japanese city pop vinyl record LP",
+    "marugo-tabi-shoes": "Marugo Sneakers Tabi Sports Jog",
+    "japanese-chisel-yasuki": "Japanese woodworking chisel Yasuki",
+    "edo-kiriko-glass": "Japanese Kiriko Cut Glass Whiskey",
+    "jubako-bento-box": "Jubako Bento Box Japanese Wooden",
+    "shodo-calligraphy-set": "Japanese Calligraphy Shodo Brush Set",
 }
 
 
