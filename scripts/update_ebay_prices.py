@@ -158,6 +158,11 @@ SEARCH_OVERRIDES: dict[str, str] = {
     "edo-kiriko-glass": "Japanese Kiriko Cut Glass Whiskey",
     "jubako-bento-box": "Jubako Bento Box Japanese Wooden",
     "shodo-calligraphy-set": "Japanese Calligraphy Shodo Brush Set",
+    "sony-nw-a306-jp": "Sony Walkman NW-A306 Japanese",
+    "zojirushi-khe48": "Zojirushi SM-KHE48 Stainless Mug",
+    "iwatani-tatsujin-slim": "Iwatani Tatsujin Slim Portable Stove",
+    "pilot-custom-823": "Pilot Custom 823 Fountain Pen",
+    "hhkb-hybrid-type-s-jp": "HHKB Professional Hybrid Type-S Japanese Layout",
 }
 
 

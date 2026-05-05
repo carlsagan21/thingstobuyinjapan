@@ -796,5 +796,110 @@
       "en": "Sharper than Western tools; steady demand from woodworking enthusiasts.",
       "ja": "西洋の道具より切れ味が良く、木工愛好家の固定需要がある。"
     }
+  },
+  {
+    "id": "sony-nw-a306-jp",
+    "name": {
+      "ko": "소니 워크맨 NW-A306 (일본 내수용)",
+      "en": "Sony Walkman NW-A306 (Japan Domestic Model)",
+      "ja": "ソニー ウォークマン NW-A306"
+    },
+    "category": "electronics",
+    "priceJpy": 46000,
+    "estimatedPriceUsd": 389,
+    "whereToBuy": {
+      "ko": "요도바시 카메라, 빅카메라, 소니 스토어",
+      "en": "Yodobashi Camera, Bic Camera, Sony Store",
+      "ja": "ヨドバシカメラ、ビックカメラ、ソニーストア"
+    },
+    "notes": {
+      "ko": "해외판과 달리 볼륨 제한이 해제되어 있어 오디오 매니아들의 일본 직구 수요가 매우 높음.",
+      "en": "Unlike international models, the Japan model has no volume cap limit, highly sought after.",
+      "ja": "海外版と異なり音量制限がないため、オーディオファンから非常に需要が高い。"
+    }
+  },
+  {
+    "id": "zojirushi-khe48",
+    "name": {
+      "ko": "조지루시 보온병 SM-KHE48",
+      "en": "Zojirushi SM-KHE48 Stainless Mug",
+      "ja": "象印 ステンレスマグ SM-KHE48"
+    },
+    "category": "kitchenware",
+    "priceJpy": 3500,
+    "estimatedPriceUsd": 52,
+    "whereToBuy": {
+      "ko": "돈키호테, 로프트, 대형 마트",
+      "en": "Don Quijote, LOFT, Supermarkets",
+      "ja": "ドン・キホーテ、LOFT、大型スーパー"
+    },
+    "notes": {
+      "ko": "이베이에서 꾸준히 잘 팔리는 글로벌 베스트셀러 모델. 부피가 작고 가벼워 배송비 절감.",
+      "en": "Global best-seller on eBay. Small and light, saving on international shipping.",
+      "ja": "eBayでのベストセラー。小さく軽いため国際送料が抑えられる。"
+    }
+  },
+  {
+    "id": "iwatani-tatsujin-slim",
+    "name": {
+      "ko": "이와타니 가스버너 달인 슬림",
+      "en": "Iwatani Tatsujin Slim Portable Stove",
+      "ja": "イワタニ カセットフー 達人スリム"
+    },
+    "category": "kitchenware",
+    "priceJpy": 4500,
+    "estimatedPriceUsd": 85,
+    "whereToBuy": {
+      "ko": "요도바시 카메라, 도큐핸즈, 홈센터",
+      "en": "Yodobashi Camera, Tokyu Hands, Home Centers",
+      "ja": "ヨドバシカメラ、東急ハンズ、ホームセンター"
+    },
+    "notes": {
+      "ko": "세계에서 가장 슬림하고 디자인이 예쁜 휴대용 버너로 캠핑족 필수 아이템.",
+      "en": "Thinnest and most aesthetically pleasing portable stove, essential for campers.",
+      "ja": "最もスリムで美しいデザインのカセットコンロ。キャンパーの必需品。"
+    }
+  },
+  {
+    "id": "pilot-custom-823",
+    "name": {
+      "ko": "파이롯트 커스텀 823 만년필",
+      "en": "Pilot Custom 823 Fountain Pen",
+      "ja": "パイロット カスタム823 万年筆"
+    },
+    "category": "stationery",
+    "priceJpy": 33000,
+    "estimatedPriceUsd": 427,
+    "whereToBuy": {
+      "ko": "이토야(Itoya), 세카이도(Sekaido), 마루젠",
+      "en": "Itoya, Sekaido, Maruzen",
+      "ja": "伊東屋、世界堂、丸善"
+    },
+    "notes": {
+      "ko": "플런저 방식 잉크 주입의 걸작 만년필. 서구권 만년필 커뮤니티에서 극찬을 받으며 수요 폭발.",
+      "en": "Masterpiece plunger-filling pen. Highly praised in Western fountain pen communities.",
+      "ja": "プランジャー式吸入の傑作。欧米の万年筆コミュニティで絶賛され需要爆発。"
+    }
+  },
+  {
+    "id": "hhkb-hybrid-type-s-jp",
+    "name": {
+      "ko": "HHKB 하이브리드 Type-S (일본어 배열)",
+      "en": "HHKB Professional Hybrid Type-S (JIS Layout)",
+      "ja": "HHKB Professional HYBRID Type-S 日本語配列"
+    },
+    "category": "electronics",
+    "priceJpy": 36000,
+    "estimatedPriceUsd": 350,
+    "whereToBuy": {
+      "ko": "요도바시 카메라, 츠쿠모, 소프맵",
+      "en": "Yodobashi Camera, Tsukumo, Sofmap",
+      "ja": "ヨドバシカメラ、ツクモ、ソフマップ"
+    },
+    "notes": {
+      "ko": "방향키가 들어간 JIS 배열 한정판은 일본 외 지역에서 구하기 어려워 프리미엄이 붙음.",
+      "en": "JIS layout version with arrow keys is hard to find outside Japan, fetching a premium.",
+      "ja": "矢印キーがあるJIS配列版は海外で入手困難なためプレミアがつく。"
+    }
   }
 ]
