@@ -21,48 +21,6 @@
     }
   },
   {
-    "id": "nintendo-jp-limited",
-    "name": {
-      "ko": "닌텐도 스위치 일본 한정판 게임",
-      "en": "Nintendo Switch Japan-Exclusive Edition",
-      "ja": "Nintendo Switch 限定版ソフト"
-    },
-    "category": "gaming",
-    "priceJpy": 9800,
-    "estimatedPriceUsd": 87,
-    "whereToBuy": {
-      "ko": "닌텐도 도쿄 스토어, 빅카메라",
-      "en": "Nintendo Tokyo, Bic Camera",
-      "ja": "Nintendo TOKYO、ビックカメラ"
-    },
-    "notes": {
-      "ko": "일본 한정판 패키지/특전이 있는 타이틀이 미국 컬렉터에게 인기.",
-      "en": "Japan-exclusive packaging and bonus items drive US collector demand.",
-      "ja": "日本限定パッケージや特典付きタイトルがアメリカのコレクターに人気。"
-    }
-  },
-  {
-    "id": "sailor-pen",
-    "name": {
-      "ko": "Sailor 프로기어 만년필",
-      "en": "Sailor Pro Gear Fountain Pen",
-      "ja": "セーラー プロフェッショナルギア"
-    },
-    "category": "stationery",
-    "priceJpy": 22000,
-    "estimatedPriceUsd": 200,
-    "whereToBuy": {
-      "ko": "이토야, 마루젠, 세카이도",
-      "en": "Itoya, Maruzen, Sekaido",
-      "ja": "伊東屋、丸善、世界堂"
-    },
-    "notes": {
-      "ko": "일본 내수가가 미국 소매가보다 30% 이상 저렴. 한정 색상 인기.",
-      "en": "Japan domestic price is 30%+ cheaper than US retail. Limited colors are highly desired.",
-      "ja": "国内価格はアメリカ小売価格より30%以上安い。限定色は人気が高い。"
-    }
-  },
-  {
     "id": "fuji-instax-jp",
     "name": {
       "ko": "후지 인스탁스 미니 일본 한정 컬러",
@@ -102,27 +60,6 @@
       "ko": "일본 내수 전용 모델은 미국에서 프리미엄가에 거래됨.",
       "en": "Japan-domestic-only references trade at a premium in the US.",
       "ja": "国内専売モデルはアメリカでプレミア価格で取引される。"
-    }
-  },
-  {
-    "id": "bandai-figure",
-    "name": {
-      "ko": "반다이 한정 피규어 (Tamashii Nations)",
-      "en": "Bandai Tamashii Nations Limited Figure",
-      "ja": "バンダイ 魂ネイション 限定フィギュア"
-    },
-    "category": "collectibles",
-    "priceJpy": 15000,
-    "estimatedPriceUsd": 189,
-    "whereToBuy": {
-      "ko": "Tamashii Nations Store, 아키하바라",
-      "en": "Tamashii Nations Store, Akihabara",
-      "ja": "魂ネイションズ ストア、秋葉原"
-    },
-    "notes": {
-      "ko": "이벤트 한정 / 웹 한정 모델은 발매 직후 가치 상승.",
-      "en": "Event-only and web-exclusive editions appreciate immediately after release.",
-      "ja": "イベント限定・ウェブ限定モデルは発売直後から価格上昇。"
     }
   },
   {
@@ -210,27 +147,6 @@
     }
   },
   {
-    "id": "grand-seiko-domestic",
-    "name": {
-      "ko": "Grand Seiko 일본 내수 모델 (SBGA / SBGM)",
-      "en": "Grand Seiko Japan-Domestic References (SBGA / SBGM)",
-      "ja": "グランドセイコー 国内モデル(SBGA / SBGM)"
-    },
-    "category": "watches",
-    "priceJpy": 320000,
-    "estimatedPriceUsd": 3781,
-    "whereToBuy": {
-      "ko": "그랜드 세이코 부티크, 와코",
-      "en": "Grand Seiko Boutique, Wako",
-      "ja": "グランドセイコー ブティック、和光"
-    },
-    "notes": {
-      "ko": "일본 내수 전용 다이얼/레퍼런스가 미국에서 프리미엄가에 거래. 면세 적용 시 마진 큼.",
-      "en": "Japan-domestic dials/references trade at a premium in the US. Duty-free purchase widens the gap.",
-      "ja": "国内専売ダイヤル/型番はアメリカでプレミア取引。免税適用で利幅が拡大。"
-    }
-  },
-  {
     "id": "seiko5-jp-limited",
     "name": {
       "ko": "Seiko 5 SKX 일본 한정 시리즈",
@@ -249,48 +165,6 @@
       "ko": "일본 단독 다이얼 컬러 모델은 출고 직후부터 거래가 상승.",
       "en": "Japan-exclusive dial colors appreciate from the moment they ship.",
       "ja": "日本専売ダイヤル色のモデルは出荷直後から相場上昇。"
-    }
-  },
-  {
-    "id": "shiseido-jp-only",
-    "name": {
-      "ko": "Shiseido 시카기 / Elixir 일본 한정",
-      "en": "Shiseido / Elixir Japan-Only Skincare",
-      "ja": "資生堂 エリクシール 限定"
-    },
-    "category": "beauty",
-    "priceJpy": 6000,
-    "estimatedPriceUsd": 69,
-    "whereToBuy": {
-      "ko": "이세탄, 도큐핸즈, 마쓰모토 키요시",
-      "en": "Isetan, Tokyu Hands, Matsumoto Kiyoshi",
-      "ja": "伊勢丹、東急ハンズ、マツモトキヨシ"
-    },
-    "notes": {
-      "ko": "미국 미발매 SKU는 ASIAN 뷰티 커뮤니티 수요 큼.",
-      "en": "SKUs not sold in the US have strong demand from the Asian-beauty community.",
-      "ja": "アメリカ未発売SKUはアジアンビューティーコミュニティで需要が大きい。"
-    }
-  },
-  {
-    "id": "curel-jp-size",
-    "name": {
-      "ko": "Curel 일본 사이즈 보습 / 자외선 차단",
-      "en": "Curel Japan-Size Moisturizer / Sunscreen",
-      "ja": "キュレル 日本サイズ"
-    },
-    "category": "beauty",
-    "priceJpy": 2400,
-    "estimatedPriceUsd": 25,
-    "whereToBuy": {
-      "ko": "마쓰모토 키요시, 웰시아",
-      "en": "Matsumoto Kiyoshi, Welcia",
-      "ja": "マツモトキヨシ、ウエルシア"
-    },
-    "notes": {
-      "ko": "미국 판매분과 처방이 다른 일본 내수판 인기. 무첨가 라인 특히 수요 큼.",
-      "en": "Japan-domestic formulations differ from US versions. The fragrance-free line is in high demand.",
-      "ja": "アメリカ販売品と処方が異なる国内版が人気。無添加ラインの需要が特に大きい。"
     }
   },
   {
@@ -354,69 +228,6 @@
       "ko": "지브리 파크 한정 굿즈가 가장 마진이 큼.",
       "en": "Ghibli Park exclusives carry the largest margin.",
       "ja": "ジブリパーク限定グッズが最も利幅が大きい。"
-    }
-  },
-  {
-    "id": "sanrio-collab",
-    "name": {
-      "ko": "산리오 헬로키티 일본 콜라보",
-      "en": "Sanrio Hello Kitty Japan Collab",
-      "ja": "サンリオ ハローキティ 限定コラボ"
-    },
-    "category": "collectibles",
-    "priceJpy": 3500,
-    "estimatedPriceUsd": 78,
-    "whereToBuy": {
-      "ko": "산리오 퓨로랜드, 산리오 직영점",
-      "en": "Sanrio Puroland, Sanrio direct stores",
-      "ja": "サンリオピューロランド、サンリオ直営店"
-    },
-    "notes": {
-      "ko": "퓨로랜드 한정 / 일본 한정 콜라보 라인 인기.",
-      "en": "Puroland-exclusive and Japan-only collab lines sell strong.",
-      "ja": "ピューロランド限定・日本限定コラボラインが人気。"
-    }
-  },
-  {
-    "id": "good-smile-nendo",
-    "name": {
-      "ko": "Good Smile 넨도로이드 한정판",
-      "en": "Good Smile Nendoroid Limited Edition",
-      "ja": "グッドスマイル ねんどろいど 限定"
-    },
-    "category": "collectibles",
-    "priceJpy": 6500,
-    "estimatedPriceUsd": 72,
-    "whereToBuy": {
-      "ko": "GOODSMILE ONLINE SHOP, 아키하바라",
-      "en": "GOODSMILE ONLINE SHOP, Akihabara",
-      "ja": "グッドスマイル オンラインショップ、秋葉原"
-    },
-    "notes": {
-      "ko": "이벤트 한정 / 웹샵 한정은 발매 후 단종되면 가격 급등.",
-      "en": "Event and web-shop exclusives spike sharply once they go out of production.",
-      "ja": "イベント限定・ウェブショップ限定は生産終了後に価格急騰。"
-    }
-  },
-  {
-    "id": "balmuda-toaster",
-    "name": {
-      "ko": "Balmuda The Toaster 일본 한정 컬러",
-      "en": "Balmuda The Toaster Japan-Exclusive Color",
-      "ja": "バルミューダ ザ・トースター 限定色"
-    },
-    "category": "electronics",
-    "priceJpy": 27000,
-    "estimatedPriceUsd": 322,
-    "whereToBuy": {
-      "ko": "Balmuda 직영, 츠타야 가전, 츠루야",
-      "en": "Balmuda direct, Tsutaya Electrics, Tsuruya",
-      "ja": "バルミューダ直営、蔦屋家電、ツルヤ"
-    },
-    "notes": {
-      "ko": "100V 사양이라 미국에서는 변압기 필요 (구매자 안내 중요). 디자인 컬렉터 수요.",
-      "en": "100V spec requires a step-up transformer in the US — disclose this. Design collectors are the buyer base.",
-      "ja": "100V仕様のためアメリカでは変圧器が必要(購入者への明示が重要)。デザインコレクター需要あり。"
     }
   },
   {
@@ -525,48 +336,6 @@
     }
   },
   {
-    "id": "dragonball-fw",
-    "name": {
-      "ko": "Dragon Ball Super Card Game Fusion World 박스",
-      "en": "Dragon Ball Super Card Game Fusion World Box",
-      "ja": "ドラゴンボール フュージョンワールド ブースターBOX"
-    },
-    "category": "gaming",
-    "priceJpy": 6500,
-    "estimatedPriceUsd": 130,
-    "whereToBuy": {
-      "ko": "수루가야, 빅카메라, 토이즈러스",
-      "en": "Suruga-ya, Bic Camera, Toys\"R\"Us",
-      "ja": "駿河屋、ビックカメラ、トイザらス"
-    },
-    "notes": {
-      "ko": "신생 TCG라 시크릿 레어 인기. 박스 단위 마진 좋음.",
-      "en": "New TCG, so secret rares are hot. Boxes carry strong margins.",
-      "ja": "新生TCGのためシークレットレアが人気。ボックス単位での利幅が良好。"
-    }
-  },
-  {
-    "id": "one-piece-tcg",
-    "name": {
-      "ko": "원피스 카드 게임 부스터 박스",
-      "en": "One Piece Card Game Booster Box",
-      "ja": "ワンピースカードゲーム ブースターBOX"
-    },
-    "category": "gaming",
-    "priceJpy": 6500,
-    "estimatedPriceUsd": 94,
-    "whereToBuy": {
-      "ko": "포켓몬 센터 (만다라케), 수루가야",
-      "en": "Mandarake, Suruga-ya, hobby shops",
-      "ja": "まんだらけ、駿河屋、ホビーショップ"
-    },
-    "notes": {
-      "ko": "미국 영문판 발매 늦어서 일본판 프리미엄. 시크릿 레어 단가 큼.",
-      "en": "US English release lags, so the JP version trades at a premium. Secret rares are big-ticket.",
-      "ja": "英語版発売が遅れるため日本版にプレミア。シークレットレアの単価が大きい。"
-    }
-  },
-  {
     "id": "atlus-famitsu-dx",
     "name": {
       "ko": "Atlus / Sega FamiTsu DX Pack 한정",
@@ -585,27 +354,6 @@
       "ko": "Persona / SMT / 진여신전생 한정판은 미국 컬렉터에게 인기.",
       "en": "Persona / SMT collector editions are popular with US fans.",
       "ja": "ペルソナ・SMT・真・女神転生の限定版はアメリカのコレクターに人気。"
-    }
-  },
-  {
-    "id": "splatoon-controller-jp",
-    "name": {
-      "ko": "스플래툰 프로 컨트롤러 일본 한정",
-      "en": "Splatoon Pro Controller Japan-Exclusive Design",
-      "ja": "スプラトゥーン プロコン 日本限定"
-    },
-    "category": "gaming",
-    "priceJpy": 9000,
-    "estimatedPriceUsd": 105,
-    "whereToBuy": {
-      "ko": "닌텐도 도쿄, 빅카메라",
-      "en": "Nintendo Tokyo, Bic Camera",
-      "ja": "Nintendo TOKYO、ビックカメラ"
-    },
-    "notes": {
-      "ko": "일본 한정 디자인. 다른 컨트롤러와 묶어 보내기 좋음.",
-      "en": "Japan-only design. Pairs well in a multi-controller bundle shipment.",
-      "ja": "日本限定デザイン。他のコントローラとまとめ発送に向く。"
     }
   },
   {
@@ -693,27 +441,6 @@
     }
   },
   {
-    "id": "itoya-romeo3",
-    "name": {
-      "ko": "Itoya Romeo No.3 만년필",
-      "en": "Itoya Romeo No.3 Fountain Pen",
-      "ja": "イトーヤ ロメオ No.3"
-    },
-    "category": "stationery",
-    "priceJpy": 42000,
-    "estimatedPriceUsd": 480,
-    "whereToBuy": {
-      "ko": "이토야 긴자",
-      "en": "Itoya Ginza",
-      "ja": "伊東屋 銀座本店"
-    },
-    "notes": {
-      "ko": "이토야 긴자 본점 한정 라인. 미국 미유통이라 진귀.",
-      "en": "Exclusive to the Itoya Ginza flagship. Not distributed in the US — a rare find.",
-      "ja": "伊東屋 銀座本店限定ライン。アメリカ未流通のため希少。"
-    }
-  },
-  {
     "id": "mitsubishi-kurutoga-roulette",
     "name": {
       "ko": "미츠비시 Kuru Toga Roulette 모델",
@@ -756,195 +483,6 @@
     }
   },
   {
-    "id": "maruman-mnemosyne",
-    "name": {
-      "ko": "Maruman Mnemosyne 노트 (A4)",
-      "en": "Maruman Mnemosyne Notebook (A4)",
-      "ja": "マルマン ニーモシネ A4"
-    },
-    "category": "stationery",
-    "priceJpy": 1500,
-    "estimatedPriceUsd": 23,
-    "whereToBuy": {
-      "ko": "로프트, 토큐핸즈, 세카이도",
-      "en": "Loft, Tokyu Hands, Sekaido",
-      "ja": "ロフト、東急ハンズ、世界堂"
-    },
-    "notes": {
-      "ko": "미국 정가 $20 vs 일본 ¥1500 (~$10). 회의용 그리드 노트로 인기.",
-      "en": "US MSRP $20 vs Japan ¥1500 (~$10). Popular as a meeting grid notebook.",
-      "ja": "アメリカ定価$20 vs 日本¥1500(約$10)。会議用グリッドノートとして人気。"
-    }
-  },
-  {
-    "id": "dhc-cleansing-oil",
-    "name": {
-      "ko": "DHC Deep Cleansing Oil 200ml 일본 사이즈",
-      "en": "DHC Deep Cleansing Oil 200ml (Japan Size)",
-      "ja": "DHC ディープクレンジングオイル 200ml"
-    },
-    "category": "beauty",
-    "priceJpy": 2700,
-    "estimatedPriceUsd": 39,
-    "whereToBuy": {
-      "ko": "마쓰모토 키요시, 웰시아, 돈키호테",
-      "en": "Matsumoto Kiyoshi, Welcia, Don Quijote",
-      "ja": "マツモトキヨシ、ウエルシア、ドン・キホーテ"
-    },
-    "notes": {
-      "ko": "일본 정식 200ml 사이즈는 미국 70ml 대비 단가 절반.",
-      "en": "Japan's standard 200ml is half the per-ml price of the US 70ml.",
-      "ja": "日本正規200mlサイズはアメリカ70ml比でml単価が半分。"
-    }
-  },
-  {
-    "id": "anessa-uv",
-    "name": {
-      "ko": "Anessa Perfect UV Sunscreen 60ml",
-      "en": "Anessa Perfect UV Sunscreen 60ml",
-      "ja": "アネッサ パーフェクトUV 60ml"
-    },
-    "category": "beauty",
-    "priceJpy": 2800,
-    "estimatedPriceUsd": 39,
-    "whereToBuy": {
-      "ko": "마쓰모토 키요시, 웰시아, 면세점",
-      "en": "Matsumoto Kiyoshi, Welcia, duty-free",
-      "ja": "マツモトキヨシ、ウエルシア、免税店"
-    },
-    "notes": {
-      "ko": "일본 처방은 SPF 50+ PA++++. 미국 미발매 모델 / 자외선차단제 시장 인기.",
-      "en": "Japan formula is SPF 50+ PA++++. The Japan model isn't sold in the US — strong sunscreen demand.",
-      "ja": "日本処方はSPF 50+ PA++++。アメリカ未発売モデルで日焼け止め市場で人気。"
-    }
-  },
-  {
-    "id": "biore-uv-aqua",
-    "name": {
-      "ko": "Biore UV Aqua Rich 워터리 에센스",
-      "en": "Bioré UV Aqua Rich Watery Essence",
-      "ja": "ビオレUV アクアリッチ"
-    },
-    "category": "beauty",
-    "priceJpy": 900,
-    "estimatedPriceUsd": 18,
-    "whereToBuy": {
-      "ko": "마쓰모토 키요시, 웰시아",
-      "en": "Matsumoto Kiyoshi, Welcia",
-      "ja": "マツモトキヨシ、ウエルシア"
-    },
-    "notes": {
-      "ko": "Asian beauty 커뮤니티 베스트셀러. 일본 신처방판 차이 큼.",
-      "en": "Asian-beauty community bestseller. Japan's reformulated version differs noticeably.",
-      "ja": "アジアンビューティーコミュニティのベストセラー。日本新処方版との違いが大きい。"
-    }
-  },
-  {
-    "id": "cure-aqua-gel",
-    "name": {
-      "ko": "Cure Natural Aqua Gel 250ml",
-      "en": "Cure Natural Aqua Gel 250ml",
-      "ja": "キュア ナチュラル アクアジェル 250ml"
-    },
-    "category": "beauty",
-    "priceJpy": 3500,
-    "estimatedPriceUsd": 44,
-    "whereToBuy": {
-      "ko": "마쓰모토 키요시, 도큐핸즈",
-      "en": "Matsumoto Kiyoshi, Tokyu Hands",
-      "ja": "マツモトキヨシ、東急ハンズ"
-    },
-    "notes": {
-      "ko": "각질제거 젤 일본 부동의 1위. 무게 때문에 동일 카테고리 묶음 발송 유리.",
-      "en": "Japan's #1 exfoliating gel. Heavy — bundle with similar items per shipment.",
-      "ja": "ピーリングジェルで日本不動の1位。重量があるため同カテゴリでまとめ発送が有利。"
-    }
-  },
-  {
-    "id": "senka-perfect-whip",
-    "name": {
-      "ko": "Senka Perfect Whip 세안폼",
-      "en": "Senka Perfect Whip Face Wash",
-      "ja": "専科 パーフェクトホイップ"
-    },
-    "category": "beauty",
-    "priceJpy": 600,
-    "estimatedPriceUsd": 13,
-    "whereToBuy": {
-      "ko": "마쓰모토 키요시, 돈키호테",
-      "en": "Matsumoto Kiyoshi, Don Quijote",
-      "ja": "マツモトキヨシ、ドン・キホーテ"
-    },
-    "notes": {
-      "ko": "단가 낮지만 묶어서 6-12개 박스 발송 시 마진 충분.",
-      "en": "Low unit price, but a 6-12 pack carton delivers solid margin.",
-      "ja": "単価は低いが、6〜12本のまとめ箱発送で十分な利幅。"
-    }
-  },
-  {
-    "id": "albion-skin-conditioner",
-    "name": {
-      "ko": "Albion Skin Conditioner Essential 330ml",
-      "en": "Albion Skin Conditioner Essential 330ml",
-      "ja": "アルビオン スキンコンディショナー 330ml"
-    },
-    "category": "beauty",
-    "priceJpy": 9500,
-    "estimatedPriceUsd": 84,
-    "whereToBuy": {
-      "ko": "이세탄, 한큐, 미츠코시",
-      "en": "Isetan, Hankyu, Mitsukoshi",
-      "ja": "伊勢丹、阪急、三越"
-    },
-    "notes": {
-      "ko": "일본 백화점 명품 라인. 미국 직판 없어서 마진 큼.",
-      "en": "Japanese department-store luxury line. No US direct sales — wide margin.",
-      "ja": "日本百貨店の高級ライン。アメリカ直販がなく利幅が大きい。"
-    }
-  },
-  {
-    "id": "saborino-morning",
-    "name": {
-      "ko": "Saborino 모닝 마스크 32매",
-      "en": "Saborino Morning Mask 32-Pack",
-      "ja": "サボリーノ 目ざまシート 32枚入"
-    },
-    "category": "beauty",
-    "priceJpy": 1300,
-    "estimatedPriceUsd": 21,
-    "whereToBuy": {
-      "ko": "마쓰모토 키요시, 웰시아",
-      "en": "Matsumoto Kiyoshi, Welcia",
-      "ja": "マツモトキヨシ、ウエルシア"
-    },
-    "notes": {
-      "ko": "Asian beauty 입문자 인기 마스크. 박스 단위 발송 유리.",
-      "en": "Popular entry-tier Asian-beauty mask. Box-quantity shipping is efficient.",
-      "ja": "アジアンビューティー入門者に人気のマスク。箱単位発送が有利。"
-    }
-  },
-  {
-    "id": "kapital-denim",
-    "name": {
-      "ko": "Kapital Century 데님",
-      "en": "Kapital Century Denim",
-      "ja": "キャピタル センチュリーデニム"
-    },
-    "category": "fashion",
-    "priceJpy": 35000,
-    "estimatedPriceUsd": 450,
-    "whereToBuy": {
-      "ko": "Kapital 도쿄 (에비스, 시부야)",
-      "en": "Kapital Tokyo (Ebisu, Shibuya)",
-      "ja": "キャピタル 東京(恵比寿・渋谷)"
-    },
-    "notes": {
-      "ko": "오카야마/효고 데님. 미국 셀렉트샵 가격이 일본 정가 대비 1.5-2배.",
-      "en": "Okayama / Hyogo denim. US select-shop pricing is 1.5-2× the Japan retail.",
-      "ja": "岡山・兵庫デニム。アメリカのセレクトショップ価格は日本定価の1.5〜2倍。"
-    }
-  },
-  {
     "id": "wtaps-tokyo",
     "name": {
       "ko": "WTAPS 도쿄 한정 콜라보",
@@ -966,48 +504,6 @@
     }
   },
   {
-    "id": "beams-japan-store",
-    "name": {
-      "ko": "Beams Japan 단독 상품",
-      "en": "Beams Japan Store-Exclusive Items",
-      "ja": "ビームス ジャパン 限定"
-    },
-    "category": "fashion",
-    "priceJpy": 12000,
-    "estimatedPriceUsd": 126,
-    "whereToBuy": {
-      "ko": "Beams Japan 신주쿠, 시부야",
-      "en": "Beams Japan Shinjuku, Shibuya",
-      "ja": "ビームス ジャパン 新宿・渋谷"
-    },
-    "notes": {
-      "ko": "비매스 재팬 라인은 일본 직매장에서만 구매 가능.",
-      "en": "Beams Japan line is only available at Japan stores.",
-      "ja": "ビームス ジャパンラインは日本直営店でしか買えない。"
-    }
-  },
-  {
-    "id": "tokyo-disney-merch",
-    "name": {
-      "ko": "도쿄 디즈니 리조트 매장 한정",
-      "en": "Tokyo Disney Resort Park-Exclusive Merch",
-      "ja": "東京ディズニーリゾート 限定グッズ"
-    },
-    "category": "collectibles",
-    "priceJpy": 4500,
-    "estimatedPriceUsd": 55,
-    "whereToBuy": {
-      "ko": "도쿄 디즈니랜드 / 디즈니씨 매장",
-      "en": "Tokyo Disneyland / DisneySea shops",
-      "ja": "東京ディズニーランド/シーの店舗"
-    },
-    "notes": {
-      "ko": "다피 / 셀리메이 / 시즌 한정 굿즈는 미국 디즈니 팬 사이에서 프리미엄.",
-      "en": "Duffy / ShellieMay / seasonal goods command a premium among US Disney fans.",
-      "ja": "ダッフィー・シェリーメイ・シーズン限定グッズはアメリカのディズニーファンでプレミア。"
-    }
-  },
-  {
     "id": "usj-mario",
     "name": {
       "ko": "USJ 닌텐도 월드 한정 굿즈",
@@ -1026,48 +522,6 @@
       "ko": "마리오 파워업 밴드 / 한정 봉제인형은 미국 USJ 미발매 모델 인기.",
       "en": "Mario Power-Up Bands and limited plush not sold at US Universal — high demand.",
       "ja": "マリオパワーアップバンドや限定ぬいぐるみは、アメリカのUSJ未発売モデルが人気。"
-    }
-  },
-  {
-    "id": "jump-shop-tokyo",
-    "name": {
-      "ko": "Jump Shop 도쿄 한정 굿즈",
-      "en": "Jump Shop Tokyo-Exclusive Goods",
-      "ja": "ジャンプショップ 東京限定"
-    },
-    "category": "collectibles",
-    "priceJpy": 3000,
-    "estimatedPriceUsd": 63,
-    "whereToBuy": {
-      "ko": "Jump Shop 도쿄 / 시부야",
-      "en": "Jump Shop Tokyo / Shibuya",
-      "ja": "ジャンプショップ 東京・渋谷"
-    },
-    "notes": {
-      "ko": "원피스/나루토/슬램덩크/주술회전 매장 한정 굿즈가 핵심.",
-      "en": "Store-exclusive One Piece / Naruto / Slam Dunk / JJK goods are the prize picks.",
-      "ja": "ワンピース・NARUTO・スラムダンク・呪術廻戦の店舗限定グッズが主力。"
-    }
-  },
-  {
-    "id": "pokemon-center-plush",
-    "name": {
-      "ko": "포켓몬 센터 한정 봉제인형",
-      "en": "Pokémon Center Exclusive Plush",
-      "ja": "ポケモンセンター 限定ぬいぐるみ"
-    },
-    "category": "collectibles",
-    "priceJpy": 3500,
-    "estimatedPriceUsd": 55,
-    "whereToBuy": {
-      "ko": "포켓몬 센터 도쿄 / 메가도쿄 / 오사카",
-      "en": "Pokémon Center Tokyo / MEGA TOKYO / Osaka",
-      "ja": "ポケモンセンター 東京・メガトウキョウ・大阪"
-    },
-    "notes": {
-      "ko": "센터 한정 / 시즌 한정은 발매 직후 매진. 단종 후 가격 2배.",
-      "en": "Center- and season-exclusives sell out instantly. Prices double after retirement.",
-      "ja": "センター限定・シーズン限定は発売直後に売り切れ。販売終了後は価格2倍。"
     }
   },
   {
@@ -1113,48 +567,6 @@
     }
   },
   {
-    "id": "jjk-jump-shop",
-    "name": {
-      "ko": "주술회전 점프숍 한정",
-      "en": "Jujutsu Kaisen Jump Shop Exclusive",
-      "ja": "呪術廻戦 ジャンプショップ限定"
-    },
-    "category": "collectibles",
-    "priceJpy": 3000,
-    "estimatedPriceUsd": 45,
-    "whereToBuy": {
-      "ko": "Jump Shop, 무비코미 도쿄",
-      "en": "Jump Shop, Mu-vi-comi Tokyo",
-      "ja": "ジャンプショップ、ムービーコミ東京"
-    },
-    "notes": {
-      "ko": "극장판 개봉 시기에 출시되는 한정 굿즈가 마진 큼.",
-      "en": "Limited goods released alongside the films carry the largest margins.",
-      "ja": "劇場版公開時期に発売される限定グッズが最も利幅が大きい。"
-    }
-  },
-  {
-    "id": "hololive-merch",
-    "name": {
-      "ko": "홀로라이브 한정 굿즈",
-      "en": "Hololive Limited Merchandise",
-      "ja": "ホロライブ 限定グッズ"
-    },
-    "category": "collectibles",
-    "priceJpy": 5000,
-    "estimatedPriceUsd": 84,
-    "whereToBuy": {
-      "ko": "Hololive Production Store 도쿄, GeeStore",
-      "en": "Hololive Production Store Tokyo, GeeStore",
-      "ja": "ホロライブプロダクション ストア東京、GEE!STORE"
-    },
-    "notes": {
-      "ko": "버추얼 라이버 한정 굿즈 / 라이브 한정 굿즈는 미국 팬덤 수요 큼.",
-      "en": "VTuber and concert-exclusive goods see strong demand from the US fandom.",
-      "ja": "バーチャルライバー限定・ライブ限定グッズはアメリカのファンダム需要大。"
-    }
-  },
-  {
     "id": "ghibli-park",
     "name": {
       "ko": "지브리 파크 한정 굿즈",
@@ -1173,27 +585,6 @@
       "ko": "지브리 파크 한정 라인은 도쿄/온라인에서도 구매 불가. 마진 매우 큼.",
       "en": "Ghibli Park-only line isn't available in Tokyo or online — margins are very high.",
       "ja": "ジブリパーク限定ラインは東京・オンラインでも入手不可。利幅が非常に大きい。"
-    }
-  },
-  {
-    "id": "comiket-doujin",
-    "name": {
-      "ko": "코미케 한정 동인 굿즈",
-      "en": "Comiket Doujin Exclusive Goods",
-      "ja": "コミケ限定 同人グッズ"
-    },
-    "category": "collectibles",
-    "priceJpy": 3000,
-    "estimatedPriceUsd": 61,
-    "whereToBuy": {
-      "ko": "코미케 (도쿄빅사이트)",
-      "en": "Comiket (Tokyo Big Sight)",
-      "ja": "コミックマーケット(東京ビッグサイト)"
-    },
-    "notes": {
-      "ko": "이벤트 당일만 판매 / 통판 없는 굿즈는 미국 거래가 2-3배.",
-      "en": "Event-day-only goods with no mail-order trade at 2-3× in the US.",
-      "ja": "イベント当日のみ販売・通販なしのグッズはアメリカ取引価格が2〜3倍。"
     }
   },
   {
@@ -1218,69 +609,6 @@
     }
   },
   {
-    "id": "tokyo-banana-box",
-    "name": {
-      "ko": "도쿄 바나나 8개입 박스",
-      "en": "Tokyo Banana 8-Pack Box",
-      "ja": "東京ばな奈 8個入"
-    },
-    "category": "food",
-    "priceJpy": 1300,
-    "estimatedPriceUsd": 22,
-    "whereToBuy": {
-      "ko": "도쿄역, 하네다, 나리타 공항",
-      "en": "Tokyo Station, Haneda, Narita airports",
-      "ja": "東京駅、羽田・成田空港"
-    },
-    "notes": {
-      "ko": "유통기한 약 2주. 일본 여행객 대상으로도 인기 많음.",
-      "en": "Shelf life around 2 weeks. Popular souvenir among Japan travelers too.",
-      "ja": "賞味期限は約2週間。日本旅行者向け土産としても人気が高い。"
-    }
-  },
-  {
-    "id": "yokumoku-cigare",
-    "name": {
-      "ko": "요쿠모쿠 시가르 캔 박스",
-      "en": "Yokumoku Cigare Tin Box",
-      "ja": "ヨックモック シガール 缶"
-    },
-    "category": "food",
-    "priceJpy": 3500,
-    "estimatedPriceUsd": 70,
-    "whereToBuy": {
-      "ko": "이세탄, 한큐, 백화점 식품관",
-      "en": "Isetan, Hankyu, depachika food halls",
-      "ja": "伊勢丹、阪急、デパ地下"
-    },
-    "notes": {
-      "ko": "일본 정통 양과자. 캔 디자인 한정판은 컬렉터 수요도 있음.",
-      "en": "Classic Japanese confection. Limited tin designs also draw collector demand.",
-      "ja": "日本の定番洋菓子。缶デザイン限定版にはコレクター需要もある。"
-    }
-  },
-  {
-    "id": "ippodo-matcha",
-    "name": {
-      "ko": "Ippodo 우지 말차 (간자미)",
-      "en": "Ippodo Uji Matcha (Kanza)",
-      "ja": "一保堂 宇治抹茶 甘茶"
-    },
-    "category": "food",
-    "priceJpy": 3500,
-    "estimatedPriceUsd": 48,
-    "whereToBuy": {
-      "ko": "Ippodo 교토 본점, 도쿄 마루노우치",
-      "en": "Ippodo Kyoto flagship, Tokyo Marunouchi",
-      "ja": "一保堂 京都本店、東京丸の内"
-    },
-    "notes": {
-      "ko": "프리미엄 말차는 일본 직접 구매가 미국 정식 수입가 대비 30-40% 저렴.",
-      "en": "Premium matcha bought in Japan runs 30-40% below US official import pricing.",
-      "ja": "プレミアム抹茶は日本での直接購入がアメリカ正規輸入価格より30〜40%安い。"
-    }
-  },
-  {
     "id": "pocky-jp-flavors",
     "name": {
       "ko": "포키/프리츠 일본 한정 맛 12박스 세트",
@@ -1299,27 +627,6 @@
       "ko": "지역 한정 (오사카 타코야키 맛 등) 묶음 인기.",
       "en": "Region-only flavors like Osaka takoyaki sell well as a bundle.",
       "ja": "ご当地限定(大阪たこ焼き味など)のまとめが人気。"
-    }
-  },
-  {
-    "id": "calpis-concentrate",
-    "name": {
-      "ko": "Calpis 농축액 1.5L 일본판",
-      "en": "Calpis Concentrate 1.5L (Japan Version)",
-      "ja": "カルピス 濃縮原液 1.5L"
-    },
-    "category": "food",
-    "priceJpy": 1200,
-    "estimatedPriceUsd": 22,
-    "whereToBuy": {
-      "ko": "수퍼마켓, 돈키호테",
-      "en": "Supermarkets, Don Quijote",
-      "ja": "スーパーマーケット、ドン・キホーテ"
-    },
-    "notes": {
-      "ko": "미국에서는 Calpico (희석 음료) 만 판매. 농축원액 일본 한정.",
-      "en": "Only Calpico (pre-diluted) is sold in the US. The concentrate is Japan-only.",
-      "ja": "アメリカではCalpico(希釈済み)のみ販売。濃縮原液は日本限定。"
     }
   },
   {
@@ -1386,132 +693,6 @@
     }
   },
   {
-    "id": "seiko-presage-sakura",
-    "name": {
-      "ko": "Seiko Presage 일본 한정 (사쿠라/우유미)",
-      "en": "Seiko Presage Japan-Limited (Sakura, Yuyumi)",
-      "ja": "セイコー プレサージュ 日本限定"
-    },
-    "category": "watches",
-    "priceJpy": 80000,
-    "estimatedPriceUsd": 1060,
-    "whereToBuy": {
-      "ko": "Seiko 부티크, 와코 긴자",
-      "en": "Seiko Boutique, Wako Ginza",
-      "ja": "セイコー ブティック、和光 銀座"
-    },
-    "notes": {
-      "ko": "일본 단독 다이얼/회사기념 한정판. 발매 직후 거래가 상승.",
-      "en": "Japan-only dials and anniversary editions. Prices climb right after release.",
-      "ja": "日本専売ダイヤル・記念限定モデル。発売直後から取引価格上昇。"
-    }
-  },
-  {
-    "id": "seiko-prospex-jp",
-    "name": {
-      "ko": "Seiko Prospex 일본 한정 컬러",
-      "en": "Seiko Prospex Japan-Exclusive Color",
-      "ja": "セイコー プロスペックス 日本限定"
-    },
-    "category": "watches",
-    "priceJpy": 55000,
-    "estimatedPriceUsd": 940,
-    "whereToBuy": {
-      "ko": "Seiko 부티크, 빅카메라 시계 코너",
-      "en": "Seiko Boutique, Bic Camera watch dept.",
-      "ja": "セイコー ブティック、ビックカメラ時計売り場"
-    },
-    "notes": {
-      "ko": "다이버 한정 컬러 / 후지 한정 모델 등 미국 미유통 라인.",
-      "en": "Diver-exclusive colors and Mt. Fuji editions among Japan-only lines.",
-      "ja": "ダイバー限定カラーや富士山限定モデルなど、アメリカ未流通ライン。"
-    }
-  },
-  {
-    "id": "orient-star-jp",
-    "name": {
-      "ko": "Orient Star 일본 내수 모델",
-      "en": "Orient Star Japan-Domestic Reference",
-      "ja": "オリエントスター 国内モデル"
-    },
-    "category": "watches",
-    "priceJpy": 90000,
-    "estimatedPriceUsd": 781,
-    "whereToBuy": {
-      "ko": "Orient 직영, 빅카메라",
-      "en": "Orient flagship, Bic Camera",
-      "ja": "オリエント直営、ビックカメラ"
-    },
-    "notes": {
-      "ko": "오리엔트 스타 일본 내수는 미국 정식 수입 대비 30-40% 저렴.",
-      "en": "Orient Star Japan-domestic runs 30-40% below US official import pricing.",
-      "ja": "オリエントスター国内版はアメリカ正規輸入比30〜40%安い。"
-    }
-  },
-  {
-    "id": "kurono-tokyo",
-    "name": {
-      "ko": "Kurono Tokyo (Hajime Asaoka)",
-      "en": "Kurono Tokyo (Hajime Asaoka)",
-      "ja": "Kurono Tokyo(浅岡 肇)"
-    },
-    "category": "watches",
-    "priceJpy": 220000,
-    "estimatedPriceUsd": 3148,
-    "whereToBuy": {
-      "ko": "Kurono Tokyo 공식 통판 (추첨)",
-      "en": "Kurono Tokyo official mail-order (lottery)",
-      "ja": "Kurono Tokyo 公式通販(抽選)"
-    },
-    "notes": {
-      "ko": "일본 부티크 워치메이커. 정가 vs 미국 리세일가 1.5-2배 차이.",
-      "en": "Japanese boutique watchmaker. Retail vs US resale gap is 1.5-2×.",
-      "ja": "日本のブティックウォッチメーカー。定価とアメリカリセール価格は1.5〜2倍差。"
-    }
-  },
-  {
-    "id": "shun-classic",
-    "name": {
-      "ko": "Shun Classic 산토쿠 / 페티 8\"",
-      "en": "Shun Classic Santoku / Petty 8\"",
-      "ja": "旬 クラシック 三徳/ペティ"
-    },
-    "category": "kitchen",
-    "priceJpy": 18000,
-    "estimatedPriceUsd": 180,
-    "whereToBuy": {
-      "ko": "Kappabashi, 카이 직영, 백화점 칼 코너",
-      "en": "Kappabashi, KAI flagship, department-store knife corners",
-      "ja": "合羽橋、貝印直営、百貨店刃物売り場"
-    },
-    "notes": {
-      "ko": "Shun (KAI) 일본 정가 vs 미국 정가 차이가 크며, 면세점 추가 마진.",
-      "en": "Shun (KAI) Japan retail vs US retail gap is large; duty-free adds more margin.",
-      "ja": "Shun(貝印)の日本定価とアメリカ定価の差が大きく、免税で追加利幅。"
-    }
-  },
-  {
-    "id": "tojiro-dp",
-    "name": {
-      "ko": "Tojiro DP 코바(Gyuto/Petty)",
-      "en": "Tojiro DP Series (Gyuto / Petty)",
-      "ja": "藤次郎 DP 牛刀/ペティ"
-    },
-    "category": "kitchen",
-    "priceJpy": 10000,
-    "estimatedPriceUsd": 108,
-    "whereToBuy": {
-      "ko": "Kappabashi 도구 거리, 라쿠텐",
-      "en": "Kappabashi tools street, Rakuten",
-      "ja": "合羽橋道具街、楽天"
-    },
-    "notes": {
-      "ko": "전문가용 입문 칼. 미국 가격이 일본 정가 대비 1.4-1.5배.",
-      "en": "Pro-grade entry knife. US pricing is 1.4-1.5× Japan retail.",
-      "ja": "プロ仕様の入門包丁。アメリカ価格は日本定価の1.4〜1.5倍。"
-    }
-  },
-  {
     "id": "sakai-takayuki-damascus",
     "name": {
       "ko": "Sakai Takayuki 33층 다마스커스 칼",
@@ -1554,27 +735,6 @@
     }
   },
   {
-    "id": "iwachu-tetsubin",
-    "name": {
-      "ko": "Iwachu 난부 철 주전자",
-      "en": "Iwachu Nambu Cast-Iron Teapot",
-      "ja": "岩鋳 南部鉄瓶"
-    },
-    "category": "kitchen",
-    "priceJpy": 12000,
-    "estimatedPriceUsd": 177,
-    "whereToBuy": {
-      "ko": "Iwachu 직영 (모리오카), 백화점 식기 코너",
-      "en": "Iwachu flagship (Morioka), department-store kitchenware",
-      "ja": "岩鋳 直営(盛岡)、百貨店食器売り場"
-    },
-    "notes": {
-      "ko": "전통 공예 철 주전자. 일본가 대비 미국 거래가 1.5-2배.",
-      "en": "Traditional craft cast-iron teapot. US prices run 1.5-2× Japan retail.",
-      "ja": "伝統工芸の鉄瓶。日本価格に対しアメリカ取引価格は1.5〜2倍。"
-    }
-  },
-  {
     "id": "hario-v60-jp",
     "name": {
       "ko": "Hario V60 일본 한정 컬러 세트",
@@ -1593,48 +753,6 @@
       "ko": "한정 컬러 드리퍼 + 서버 + 케틀 묶음. 일본 한정 컬러 인기.",
       "en": "Limited-color dripper + server + kettle bundle. Japan-exclusive colors are sought after.",
       "ja": "限定カラーのドリッパー+サーバー+ケトルセット。日本限定カラーが人気。"
-    }
-  },
-  {
-    "id": "jnat-whetstone",
-    "name": {
-      "ko": "일본 천연 숫돌 (JNAT)",
-      "en": "Japanese Natural Whetstone (JNAT)",
-      "ja": "天然砥石"
-    },
-    "category": "kitchenware",
-    "priceJpy": 7500,
-    "estimatedPriceUsd": 172,
-    "whereToBuy": {
-      "ko": "도큐핸즈, 전통 철물점, 갓파바시 도구거리",
-      "en": "Tokyu Hands, Traditional Hardware Stores, Kappabashi",
-      "ja": "東急ハンズ、合羽橋道具街"
-    },
-    "notes": {
-      "ko": "요리사와 목수들에게 인기가 엄청남. 무게가 무거우니 배송비 고려 필요.",
-      "en": "Huge demand among chefs and woodworkers. Heavy item, so factor in shipping costs.",
-      "ja": "料理人や大工に大人気。重いので送料に注意。"
-    }
-  },
-  {
-    "id": "city-pop-vinyl",
-    "name": {
-      "ko": "일본 시티팝 LP 바이닐",
-      "en": "Japanese City Pop Vinyl Record",
-      "ja": "シティ・ポップ レコード"
-    },
-    "category": "collectibles",
-    "priceJpy": 2500,
-    "estimatedPriceUsd": 73,
-    "whereToBuy": {
-      "ko": "디스크유니온, 타워레코드, 동네 중고 레코드점",
-      "en": "Disk Union, Tower Records, Used Record Stores",
-      "ja": "ディスクユニオン、タワーレコード、中古レコード店"
-    },
-    "notes": {
-      "ko": "타케우치 마리야, 타카나카 마사요시 등의 오리지널 프레싱은 이베이에서 바로 팔림.",
-      "en": "Original pressings of Mariya Takeuchi, Masayoshi Takanaka sell instantly on eBay.",
-      "ja": "竹内まりや、高中正義などのオリジナル盤はeBayですぐ売れる。"
     }
   },
   {
@@ -1677,69 +795,6 @@
       "ko": "서양 도구보다 날카롭고 절삭력이 좋아 목공 매니아들의 고정 수요가 있음.",
       "en": "Sharper than Western tools; steady demand from woodworking enthusiasts.",
       "ja": "西洋の道具より切れ味が良く、木工愛好家の固定需要がある。"
-    }
-  },
-  {
-    "id": "edo-kiriko-glass",
-    "name": {
-      "ko": "에도 키리코 위스키 잔",
-      "en": "Edo Kiriko Whiskey Glass",
-      "ja": "江戸切子 グラス"
-    },
-    "category": "kitchenware",
-    "priceJpy": 3500,
-    "estimatedPriceUsd": 65,
-    "whereToBuy": {
-      "ko": "백화점 리빙관, 아사쿠사 전통공예품점",
-      "en": "Department Stores, Asakusa Craft Shops",
-      "ja": "百貨店、浅草の伝統工芸品店"
-    },
-    "notes": {
-      "ko": "수제 컷팅 유리의 영롱함 덕분에 선물용이나 위스키 수집가들에게 인기.",
-      "en": "Popular among whiskey collectors and for gifts due to beautiful hand-cut glass.",
-      "ja": "手作りカットガラスの美しさから、ウイスキー収集家やギフトに人気。"
-    }
-  },
-  {
-    "id": "jubako-bento-box",
-    "name": {
-      "ko": "원목 쥬바코 (찬합) 도시락",
-      "en": "Wooden Jubako Bento Box",
-      "ja": "木製 重箱"
-    },
-    "category": "kitchenware",
-    "priceJpy": 5500,
-    "estimatedPriceUsd": 120,
-    "whereToBuy": {
-      "ko": "백화점, 로프트(LOFT), 전통 식기점",
-      "en": "Department Stores, LOFT, Traditional Tableware Shops",
-      "ja": "百貨店、LOFT、伝統食器店"
-    },
-    "notes": {
-      "ko": "고급스러운 나무재질과 옻칠 마감이 서양인들에게 오리엔탈 인테리어/실사용으로 인기.",
-      "en": "High-end wood and lacquer finish is popular for both use and Oriental decor.",
-      "ja": "高級な木材と漆塗りが実用・インテリア両面で西洋人に人気。"
-    }
-  },
-  {
-    "id": "shodo-calligraphy-set",
-    "name": {
-      "ko": "일본 서예(쇼도) 세트",
-      "en": "Japanese Shodo Calligraphy Set",
-      "ja": "書道セット"
-    },
-    "category": "stationery",
-    "priceJpy": 2000,
-    "estimatedPriceUsd": 44,
-    "whereToBuy": {
-      "ko": "세카이도(Sekaido), 이토야(Itoya), 로프트",
-      "en": "Sekaido, Itoya, LOFT",
-      "ja": "世界堂、伊東屋、LOFT"
-    },
-    "notes": {
-      "ko": "붓, 벼루, 먹물이 포함된 스타터 세트. 서양의 동양 아트 매니아들이 많이 찾음.",
-      "en": "Starter set with brush, inkstone, and ink. Sought after by Oriental art enthusiasts.",
-      "ja": "筆、硯、墨のセット。東洋アート愛好家によく売れる。"
     }
   }
 ]
